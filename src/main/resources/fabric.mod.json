@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "foodmod",
+  "version": "${version}",
+
+  "name": "Food Mod",
+  "description": "That's very tasty!",
+  "authors": [
+    "Link4real"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/foodmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.link.food.mod.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "Cursed Mod by Link4real"
+  }
+}
