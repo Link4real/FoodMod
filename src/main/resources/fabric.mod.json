@@ -9,8 +9,9 @@
     "Link4real"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://link4real.github.io/food/",
+    "sources": "https://github.com/Link4real/FoodMod",
+    "issues": "https://github.com/Link4real/FoodMod/issues"
   },
 
   "license": "MIT",
@@ -33,5 +34,13 @@
   },
   "suggests": {
     "another-mod": "Cursed Mod by Link4real"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.updates": "https://link4real.github.io/updates.html",
+        "modmenu.cosmo": "https://dsc.gg/cosmoclient"
+      }
+    }
   }
 }

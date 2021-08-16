@@ -8,10 +8,8 @@ public class Main implements ModInitializer {
     public static final String MOD_ID = "foodmod";
 
 
-
     @Override
     public void onInitialize() {
         ModItems.registerItems();
-
     }
 }

@@ -1,4 +1,7 @@
 {
   "item.foodmod.mango": "Mango",
-  "item.foodmod.salad": "Salad"
+  "item.foodmod.salad": "Salad",
+  "modmenu.updates": "Updates",
+  "modmenu.cosmo": "Cosmoclient Discord",
+  "item.foodmod.burger": "Burger"
 }
