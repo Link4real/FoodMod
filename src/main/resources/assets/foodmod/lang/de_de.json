@@ -18,5 +18,9 @@
   "item.foodmod.fish_sandwich": "Fisch Sandwich",
   "item.foodmod.sausage": "Würstchen",
   "item.foodmod.fried_sausage": "Bratwurst",
-  "item.foodmod.fried_egg": "Spiegelei"
+  "item.foodmod.fried_egg": "Spiegelei",
+  "item.foodmod.taco": "Taco",
+  "item.foodmod.tortilla": "Tortilla",
+  "item.foodmod.taco_shell": "Taco Schale",
+  "item.foodmod.salsa": "Salsa"
 }

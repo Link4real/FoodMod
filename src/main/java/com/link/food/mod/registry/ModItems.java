@@ -30,6 +30,10 @@ public class ModItems {
     public static final Item SAUSAGE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(5).saturationModifier(4f).build()));
     public static final Item FRIED_SAUSAGE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(7).saturationModifier(6f).build()));
     public static final Item FRIED_EGG = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(3f).build()));
+    public static final Item TACO = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().saturationModifier(4f).hunger(6).build()));
+    public static final Item TORTILLA = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().saturationModifier(5f).hunger(4).build()));
+    public static final Item TACO_SHELL = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item SALSA = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(4f).snack().build()));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "mango"), MANGO);
@@ -50,5 +54,9 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "sausage"), SAUSAGE);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "fried_sausage"), FRIED_SAUSAGE);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "fried_egg"), FRIED_EGG);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "taco"), TACO);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "tortilla"), TORTILLA);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "taco_shell"), TACO_SHELL);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "salsa"), SALSA);
     }
 }

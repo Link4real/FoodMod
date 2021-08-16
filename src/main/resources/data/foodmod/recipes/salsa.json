@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "foodmod:tomato"
+    },
+    {
+      "item": "foodmod:tomato"
+    }
+  ],
+  "result": {
+    "item": "foodmod:salsa",
+    "count": 1
+  }
+}

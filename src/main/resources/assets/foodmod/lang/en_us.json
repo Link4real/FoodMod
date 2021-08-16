@@ -18,5 +18,10 @@
   "item.foodmod.fish_sandwich": "Fish Sandwich",
   "item.foodmod.sausage": "Sausage",
   "item.foodmod.fried_sausage": "Fried Sausage",
-  "item.foodmod.fried_egg": "Fried Egg"
+  "item.foodmod.fried_egg": "Fried Egg",
+  "item.foodmod.taco": "Taco",
+  "item.foodmod.tortilla": "Tortilla",
+  "item.foodmod.taco_shell": "Taco Shell",
+  "item.foodmod.salsa": "Salsa"
+
 }

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "FCD",
+    " U "
+  ],
+  "key": {
+    "#": {
+      "item": "foodmod:salsa"
+    },
+    "F": {
+      "item": "foodmod:tomato"
+    },
+    "C": {
+      "item": "minecraft:cooked_beef"
+    },
+    "D": {
+      "item": "foodmod:lettuce"
+    },
+    "U": {
+      "item": "foodmod:taco_shell"
+    }
+  },
+  "result": {
+    "item": "foodmod:taco",
+    "count": 1
+  }
+}

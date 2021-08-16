@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "foodmod:salt"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "foodmod:sunflower_oil"
+    }
+  ],
+  "result": {
+    "item": "foodmod:tortilla",
+    "count": 1
+  }
+}
