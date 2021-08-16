@@ -8,7 +8,7 @@
       "item": "minecraft:sugar"
     },
     {
-      "item": "foodmod:flour"
+      "item": "foodmod:yeast"
     },
     {
       "item": "minecraft:water_bucket"
@@ -22,6 +22,6 @@
   ],
   "result": {
     "item": "foodmod:bun",
-    "count": 1
+    "count": 2
   }
 }

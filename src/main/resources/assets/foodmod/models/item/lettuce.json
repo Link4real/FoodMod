@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "foodmod:items/salad"
+    "layer0": "foodmod:items/lettuce"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "foodmod:salt"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "foodmod:yeast"
+    },
+    {
+      "item": "foodmod:salt"
+    },
+    {
+      "item": "foodmod:sunflower_oil"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "foodmod:pretzel",
+    "count": 3
+  }
+}

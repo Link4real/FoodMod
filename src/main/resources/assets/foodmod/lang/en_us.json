@@ -1,12 +1,22 @@
 {
   "item.foodmod.mango": "Mango",
-  "item.foodmod.salad": "Salad",
+  "item.foodmod.lettuce": "Lettuce",
   "modmenu.updates": "Updates",
-  "modmenu.cosmo": "Cosmoclient Discord",
+  "modmenu.wiki": "Wiki",
   "item.foodmod.burger": "Burger",
   "item.foodmod.bun": "Bun",
   "item.foodmod.flour": "Flour",
   "item.foodmod.butter": "Butter",
   "item.foodmod.salt": "Salt",
-  "item.foodmod.tomato": "Tomato"
+  "item.foodmod.tomato": "Tomato",
+  "item.foodmod.yeast": "Yeast",
+  "item.foodmod.pretzel": "Pretzel",
+  "item.foodmod.sunflower_oil": "Sunflower Oil",
+  "item.foodmod.fries": "Fries",
+  "item.foodmod.cherry": "Cherry",
+  "item.foodmod.chicken_sandwich": "Chicken Sandwich",
+  "item.foodmod.fish_sandwich": "Fish Sandwich",
+  "item.foodmod.sausage": "Sausage",
+  "item.foodmod.fried_sausage": "Fried Sausage",
+  "item.foodmod.fried_egg": "Fried Egg"
 }

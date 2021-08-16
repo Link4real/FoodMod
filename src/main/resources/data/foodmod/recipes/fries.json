@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "foodmod:sunflower_oil"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "foodmod:salt"
+    },
+    {
+      "item": "foodmod:salt"
+    }
+  ],
+  "result": {
+    "item": "foodmod:fries",
+    "count": 16
+  }
+}
