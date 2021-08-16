@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "FQC",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "foodmod:bun"
+    },
+    "F": {
+      "item": "foodmod:salad"
+    },
+    "Q": {
+      "item": "foodmod:tomato"
+    },
+    "C": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "result": {
+    "item": "foodmod:burger",
+    "count": 1
+  }
+}

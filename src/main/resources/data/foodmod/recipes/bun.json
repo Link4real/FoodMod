@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:salt"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "foodmod:butter"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "foodmod:bun",
+    "count": 1
+  }
+}

@@ -3,5 +3,10 @@
   "item.foodmod.salad": "Salad",
   "modmenu.updates": "Updates",
   "modmenu.cosmo": "Cosmoclient Discord",
-  "item.foodmod.burger": "Burger"
+  "item.foodmod.burger": "Burger",
+  "item.foodmod.bun": "Bun",
+  "item.foodmod.flour": "Flour",
+  "item.foodmod.butter": "Butter",
+  "item.foodmod.salt": "Salt",
+  "item.foodmod.tomato": "Tomato"
 }
