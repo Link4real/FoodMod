@@ -22,5 +22,6 @@
   "item.foodmod.taco": "Taco",
   "item.foodmod.tortilla": "Tortilla",
   "item.foodmod.taco_shell": "Taco Schale",
-  "item.foodmod.salsa": "Salsa"
+  "item.foodmod.salsa": "Salsa",
+  "itemGroup.foodmod.main": "FoodMod"
 }
