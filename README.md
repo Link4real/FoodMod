@@ -1,6 +1,6 @@
 <h1 style="font-size:60px;"align="center">Food Mod</h1>
 
-<p style="font-size:36px;" align="center">This is a WIP Minecraft Mod for Fabric</p>
+<p style="font-size:36px;" align="center">This is a Minecraft Mod for Fabric</p>
 
 <p style="font-size:25px;" align="center"><a href="https://link4real.github.io/food">Website</a></p>
 
