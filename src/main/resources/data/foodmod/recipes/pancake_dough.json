@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:butter"
+    },
+    {
+      "item": "foodmod:butter"
+    },
+    {
+      "item": "foodmod:salt"
+    },
+    {
+      "item": "foodmod:butter"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "result": {
+    "item": "foodmod:pancake_dough",
+    "count": 1
+  }
+}

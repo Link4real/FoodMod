@@ -37,6 +37,12 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.FRIED_SAUSAGE));
                 stacks.add(new ItemStack(ModItems.FRIES));
                 stacks.add(new ItemStack(ModItems.MANGO));
+                stacks.add(new ItemStack(ModItems.BREAD_DOUGH));
+                stacks.add(new ItemStack(ModItems.TOAST));
+                stacks.add(new ItemStack(ModItems.WAFFLE_DOUGH));
+                stacks.add(new ItemStack(ModItems.WAFFLE));
+                stacks.add(new ItemStack(ModItems.PANCAKE_DOUGH));
+                stacks.add(new ItemStack(ModItems.PANCAKE));
             })
             .build();
     // ...

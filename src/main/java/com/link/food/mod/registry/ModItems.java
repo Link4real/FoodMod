@@ -33,6 +33,12 @@ public class ModItems {
     public static final Item TORTILLA = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().saturationModifier(5f).hunger(4).build()));
     public static final Item TACO_SHELL = new Item(new Item.Settings().group(ItemGroup.MISC));
     public static final Item SALSA = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(4f).snack().build()));
+    public static final Item TOAST = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(6).saturationModifier(7f).snack().build()));
+    public static final Item BREAD_DOUGH = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item WAFFLE_DOUGH = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item WAFFLE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(5f).build()));
+    public static final Item PANCAKE_DOUGH = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item PANCAKE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(5f).build()));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "mango"), MANGO);
@@ -57,6 +63,11 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tortilla"), TORTILLA);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "taco_shell"), TACO_SHELL);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "salsa"), SALSA);
-
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "toast"), TOAST);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "bread_dough"), BREAD_DOUGH);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "waffle_dough"), WAFFLE_DOUGH);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "waffle"), WAFFLE);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "pancake_dough"), PANCAKE_DOUGH);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "pancake"), PANCAKE);
     }
 }

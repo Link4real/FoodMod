@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "foodmod:bread_dough"
+  },
+  "result": "minecraft:bread",
+  "experience": 0.5,
+  "cookingtime": 250
+}

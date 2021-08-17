@@ -23,7 +23,13 @@
   "item.foodmod.tortilla": "Tortilla",
   "item.foodmod.taco_shell": "Taco Shell",
   "item.foodmod.salsa": "Salsa",
-  "itemGroup.foodmod.main": "FoodMod"
+  "itemGroup.foodmod.main": "FoodMod",
+  "item.foodmod.toast": "Toast",
+  "item.foodmod.bread_dough": "Bread Dough",
+  "item.foodmod.waffle_dough": "Waffle Dough",
+  "item.foodmod.waffle": "Waffle",
+  "item.foodmod.pancake_dough": "Pancake Dough",
+  "item.foodmod.pancake": "Pancake"
 
 
 }

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "foodmod:yeast"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "foodmod:salt"
+    }
+  ],
+  "result": {
+    "item": "foodmod:bread_dough",
+    "count": 1
+  }
+}

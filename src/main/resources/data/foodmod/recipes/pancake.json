@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "foodmod:pancake_dough"
+  },
+  "result": "foodmod:pancake",
+  "experience": 0.2,
+  "cookingtime": 199
+}
