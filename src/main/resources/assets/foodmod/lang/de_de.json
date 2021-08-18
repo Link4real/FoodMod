@@ -24,6 +24,7 @@
   "item.foodmod.taco_shell": "Taco Schale",
   "item.foodmod.salsa": "Salsa",
   "itemGroup.foodmod.main": "FoodMod",
+  "itemGroup.foodmod.pizza": "Pizza",
   "item.foodmod.toast": "Toast",
   "item.foodmod.bread_dough": "Brot Teig",
   "item.foodmod.waffle_dough": "Waffel Teig",
@@ -36,5 +37,19 @@
   "item.foodod.ketchup": "Ketchup",
   "item.foodmod.hotdog": "Hotdog",
   "item.foodmod.cereal": "Müsli",
-  "item.foodmod.cheese": "Käse"
+  "item.foodmod.cheese": "Käse",
+  "item.foodmod.pizza_dough": "Pizza Teig",
+  "item.foodmod.tomato_sauce": "Tomatensoße",
+  "item.foodmod.cheese_pizza": "Käse Pizza",
+  "item.foodmod.pepperoni": "Salami",
+  "item.foodmod.pepperoni_pizza": "Salami Pizza",
+  "item.foodmod.fish_pizza": "Pizza mit Meeresfrüchten",
+  "item.foodmod.pizza_margherita": "Pizza Margherita",
+  "item.foodmod.olive": "Olive",
+  "item.foodmod.greek_pizza": "Pizza griechischer Art",
+  "item.foodmod.raw_cheese_pizza": "Rohe Käse Pizza",
+  "item.foodmod.raw_pepperoni_pizza": "Rohe Salami Pizza",
+  "item.foodmod.raw_fish_pizza": "Rohe Pizza mit Meeresfrüchten",
+  "item.foodmod.raw_pizza_margherita": "Rohe Pizza Margherita",
+  "item.foodmod.raw_greek_pizza": "Rohe Pizza griechischer Art"
 }

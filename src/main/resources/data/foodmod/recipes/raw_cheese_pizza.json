@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#F#",
+    " S "
+  ],
+  "key": {
+    "#": {
+      "item": "foodmod:cheese"
+    },
+    "F": {
+      "item": "foodmod:tomato_sauce"
+    },
+    "S": {
+      "item": "foodmod:pizza_dough"
+    }
+  },
+  "result": {
+    "item": "foodmod:raw_cheese_pizza",
+    "count": 1
+  }
+}

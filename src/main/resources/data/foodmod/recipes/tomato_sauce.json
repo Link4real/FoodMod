@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:sunflower_oil"
+    },
+    {
+      "item": "foodmod:tomato"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "foodmod:salt"
+    },
+    {
+      "item": "foodmod:tomato"
+    },
+    {
+      "item": "foodmod:tomato"
+    },
+    {
+      "item": "foodmod:tomato"
+    },
+    {
+      "item": "foodmod:tomato"
+    }
+  ],
+  "result": {
+    "item": "foodmod:tomato_sauce",
+    "count": 1
+  }
+}

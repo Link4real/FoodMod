@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#F#",
+    "VCV",
+    " K "
+  ],
+  "key": {
+    "#": {
+      "item": "foodmod:tomato"
+    },
+    "F": {
+      "item": "foodmod:sunflower_oil"
+    },
+    "V": {
+      "item": "foodmod:cheese"
+    },
+    "C": {
+      "item": "foodmod:tomato_sauce"
+    },
+    "K": {
+      "item": "foodmod:pizza_dough"
+    }
+  },
+  "result": {
+    "item": "foodmod:raw_pizza_margherita",
+    "count": 1
+  }
+}

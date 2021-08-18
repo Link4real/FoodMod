@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#F#",
+    "GIG",
+    " E "
+  ],
+  "key": {
+    "#": {
+      "item": "foodmod:olive"
+    },
+    "F": {
+      "item": "foodmod:tomato"
+    },
+    "G": {
+      "item": "foodmod:cheese"
+    },
+    "I": {
+      "item": "foodmod:tomato_sauce"
+    },
+    "E": {
+      "item": "foodmod:pizza_dough"
+    }
+  },
+  "result": {
+    "item": "foodmod:raw_greek_pizza",
+    "count": 1
+  }
+}

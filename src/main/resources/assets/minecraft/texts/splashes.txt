@@ -4,14 +4,16 @@ Since 2021!
 Pure fun since 8.17.2021!
 That's very tasty!
 me when
+v1.3: The rule and history of pizza
 On Curseforge and Modrinth!
 This text was added in v1.1!
 This text was added in v1.2!
+This text was added in v1.3!
 legendary-cookie is cool
 No Forge ports!!!
 MIT-License
 What day do eggs hate the most? -> Fry-day
-/give @a foodmod:burger 64
+/give @a foodmod:pepperoni_pizza 64
 i'm eating it
 Finger Lickin' Good
 Have it your way!

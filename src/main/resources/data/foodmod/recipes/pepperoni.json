@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#BB",
+    "PPP"
+  ],
+  "key": {
+    "#": {
+      "item": "foodmod:salt"
+    },
+    "B": {
+      "item": "minecraft:beef"
+    },
+    "P": {
+      "item": "minecraft:porkchop"
+    }
+  },
+  "result": {
+    "item": "foodmod:pepperoni",
+    "count": 1
+  }
+}

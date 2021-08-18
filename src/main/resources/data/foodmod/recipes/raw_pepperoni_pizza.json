@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "FNF",
+    " H "
+  ],
+  "key": {
+    "#": {
+      "item": "foodmod:pepperoni"
+    },
+    "F": {
+      "item": "foodmod:cheese"
+    },
+    "N": {
+      "item": "foodmod:tomato_sauce"
+    },
+    "H": {
+      "item": "foodmod:pizza_dough"
+    }
+  },
+  "result": {
+    "item": "foodmod:raw_pepperoni_pizza",
+    "count": 1
+  }
+}

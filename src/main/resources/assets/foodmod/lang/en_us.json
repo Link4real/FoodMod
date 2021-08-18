@@ -24,6 +24,7 @@
   "item.foodmod.taco_shell": "Taco Shell",
   "item.foodmod.salsa": "Salsa",
   "itemGroup.foodmod.main": "FoodMod",
+  "itemGroup.foodmod.pizza": "Pizza",
   "item.foodmod.toast": "Toast",
   "item.foodmod.bread_dough": "Bread Dough",
   "item.foodmod.waffle_dough": "Waffle Dough",
@@ -36,5 +37,23 @@
   "item.foodmod.ketchup": "Ketchup",
   "item.foodmod.hotdog": "Hotdog",
   "item.foodmod.cereal": "Cereal",
-  "item.foodmod.cheese": "Cheese"
+  "item.foodmod.cheese": "Cheese",
+  "item.foodmod.pizza_dough": "Pizza Dough",
+  "item.foodmod.tomato_sauce": "Tomato Sauce",
+  "item.foodmod.cheese_pizza": "Cheese Pizza",
+  "item.foodmod.pepperoni": "Pepperoni",
+  "item.foodmod.pepperoni_pizza": "Pepperoni Pizza",
+  "item.foodmod.fish_pizza": "Fish Pizza",
+  "item.foodmod.pizza_margherita": "Pizza Margherita",
+  "item.foodmod.olive": "Olive",
+  "item.foodmod.greek_pizza": "Greek Pizza",
+  "item.foodmod.raw_cheese_pizza": "Raw Cheese Pizza",
+  "item.foodmod.raw_pepperoni_pizza": "Raw Pepperoni Pizza",
+  "item.foodmod.raw_fish_pizza": "Raw Fish Pizza",
+  "item.foodmod.raw_pizza_margherita": "Raw Pizza Margherita",
+  "item.foodmod.raw_greek_pizza": "Raw Greek Pizza"
+
+
+
+
 }

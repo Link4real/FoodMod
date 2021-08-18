@@ -1,6 +1,7 @@
 package com.link.food.mod;
 
 import com.link.food.mod.registry.ModItems;
+import com.link.food.mod.registry.PizzaItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -54,9 +55,39 @@ public class Main implements ModInitializer {
             .build();
     // ...
 
+    public static final ItemGroup PIZZA_GROUP = FabricItemGroupBuilder.create(
+            new Identifier("foodmod", "pizza"))
+            .icon(() -> new ItemStack(PizzaItems.PEPPERONI_PIZZA))
+            .appendItems(stacks -> {
+                stacks.add(new ItemStack(PizzaItems.PIZZA_DOUGH));
+                stacks.add(new ItemStack(PizzaItems.TOMATO_SAUCE));
+                stacks.add(new ItemStack(PizzaItems.PEPPERONI));
+                stacks.add(new ItemStack(PizzaItems.OLIVE));
+                stacks.add(new ItemStack(PizzaItems.CHEESE_PIZZA));
+                stacks.add(new ItemStack(PizzaItems.PEPPERONI_PIZZA));
+                stacks.add(new ItemStack(PizzaItems.FISH_PIZZA));
+                stacks.add(new ItemStack(PizzaItems.PIZZA_MARGHERITA));
+                stacks.add(new ItemStack(PizzaItems.GREEK_PIZZA));
+                stacks.add(new ItemStack(PizzaItems.RAW_CHEESE_PIZZA));
+                stacks.add(new ItemStack(PizzaItems.RAW_PEPPERONI_PIZZA));
+                stacks.add(new ItemStack(PizzaItems.RAW_FISH_PIZZA));
+                stacks.add(new ItemStack(PizzaItems.RAW_PIZZA_MARGHARITA));
+                stacks.add(new ItemStack(PizzaItems.RAW_GREEK_PIZZA));
+
+            })
+            .build();
+    // ...
+
 
     @Override
     public void onInitialize() {
+        PizzaItems.registerItems();
         ModItems.registerItems();
     }
 }
+
+
+
+
+
+//Link4real 2021

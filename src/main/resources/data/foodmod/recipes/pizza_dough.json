@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "foodmod:yeast"
+    },
+    {
+      "item": "foodmod:salt"
+    },
+    {
+      "item": "foodmod:sunflower_oil"
+    }
+  ],
+  "result": {
+    "item": "foodmod:pizza_dough",
+    "count": 1
+  }
+}
