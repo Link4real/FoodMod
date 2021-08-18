@@ -1,0 +1,29 @@
+ {
+     "type": "minecraft:crafting_shaped",
+     "pattern": [
+         " # ",
+         "FMW",
+         " B "
+     ],
+     "key": {
+         "#": {
+             "item": "minecraft:sweet_berries"
+         },
+         "F": {
+             "item": "foodmod:cherry"
+         },
+         "M": {
+             "item": "minecraft:milk_bucket"
+         },
+         "W": {
+             "item": "minecraft:wheat"
+         },
+         "B": {
+             "item": "minecraft:bowl"
+         }
+     },
+     "result": {
+         "item": "foodmod:cereal",
+         "count": 1
+     }
+ }

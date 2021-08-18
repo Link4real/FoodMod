@@ -1,22 +1,28 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " # ",
-    "FQC",
-    " # "
+    "#FP",
+    "YCM",
+    " F "
   ],
   "key": {
     "#": {
-      "item": "foodmod:bun"
+      "item": "foodmod:ketchup"
     },
     "F": {
-      "item": "foodmod:lettuce"
+      "item": "foodmod:bun"
     },
-    "Q": {
+    "P": {
+      "item": "foodmod:cheese"
+    },
+    "Y": {
       "item": "foodmod:tomato"
     },
     "C": {
       "item": "minecraft:cooked_beef"
+    },
+    "M": {
+      "item": "foodmod:lettuce"
     }
   },
   "result": {

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    "FM",
+    "# "
+  ],
+  "key": {
+    "#": {
+      "item": "foodmod:bun"
+    },
+    "F": {
+      "item": "foodmod:fried_sausage"
+    },
+    "M": {
+      "item": "foodmod:ketchup"
+    }
+  },
+  "result": {
+    "item": "foodmod:hotdog",
+    "count": 1
+  }
+}

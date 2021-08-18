@@ -29,7 +29,12 @@
   "item.foodmod.waffle_dough": "Waffle Dough",
   "item.foodmod.waffle": "Waffle",
   "item.foodmod.pancake_dough": "Pancake Dough",
-  "item.foodmod.pancake": "Pancake"
-
-
+  "item.foodmod.pancake": "Pancake",
+  "item.foodmod.cupcake": "Cupcake",
+  "item.foodmod.cupcake_dough": "Cupcake Dough",
+  "item.foodmod.pretzel_dough": "Pretzel Dough",
+  "item.foodmod.ketchup": "Ketchup",
+  "item.foodmod.hotdog": "Hotdog",
+  "item.foodmod.cereal": "Cereal",
+  "item.foodmod.cheese": "Cheese"
 }

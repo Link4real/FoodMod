@@ -36,9 +36,16 @@ public class ModItems {
     public static final Item TOAST = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(6).saturationModifier(7f).snack().build()));
     public static final Item BREAD_DOUGH = new Item(new Item.Settings().group(ItemGroup.MISC));
     public static final Item WAFFLE_DOUGH = new Item(new Item.Settings().group(ItemGroup.MISC));
-    public static final Item WAFFLE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(5f).build()));
+    public static final Item WAFFLE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(6).saturationModifier(5f).build()));
     public static final Item PANCAKE_DOUGH = new Item(new Item.Settings().group(ItemGroup.MISC));
     public static final Item PANCAKE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(5f).build()));
+    public static final Item CUPCAKE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(5f).build()));
+    public static final Item CUPCAKE_DOUGH = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item PRETZEL_DOUGH = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item KETCHUP = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(1).saturationModifier(2f).build()));
+    public static final Item HOTDOG = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(10).saturationModifier(8f).build()));
+    public static final Item CEREAL = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(5f).build()));
+    public static final Item CHEESE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(2).saturationModifier(3f).build()));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "mango"), MANGO);
@@ -51,6 +58,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato"), TOMATO);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "yeast"), YEAST);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "pretzel"), PRETZEL);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "pretzel_dough"), PRETZEL_DOUGH);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "sunflower_oil"), OIL);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "fries"), FRIES);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "cherry"), CHERRY);
@@ -69,5 +77,11 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "waffle"), WAFFLE);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "pancake_dough"), PANCAKE_DOUGH);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "pancake"), PANCAKE);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "cupcake"), CUPCAKE);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "cupcake_dough"), CUPCAKE_DOUGH);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "ketchup"), KETCHUP);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "hotdog"), HOTDOG);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "cereal"), CEREAL);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "cheese"), CHEESE);
     }
 }

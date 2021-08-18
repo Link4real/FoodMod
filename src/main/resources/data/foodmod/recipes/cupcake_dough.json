@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "foodmod:butter"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "foodmod:salt"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "foodmod:cupcake_dough",
+    "count": 1
+  }
+}

@@ -29,5 +29,12 @@
   "item.foodmod.waffle_dough": "Waffel Teig",
   "item.foodmod.waffle": "Waffel",
   "item.foodmod.pancake_dough": "Pfannkuchen Teig",
-  "item.foodmod.pancake": "Pfannkuchen"
+  "item.foodmod.pancake": "Pfannkuchen",
+  "item.foodmod.cupcake": "Muffin",
+  "item.foodmod.cupcake_dough": "Muffin Teig",
+  "item.foodmod.pretzel_dough": "Brezel Teig",
+  "item.foodod.ketchup": "Ketchup",
+  "item.foodmod.hotdog": "Hotdog",
+  "item.foodmod.cereal": "Müsli",
+  "item.foodmod.cheese": "Käse"
 }

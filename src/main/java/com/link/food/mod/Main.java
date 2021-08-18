@@ -28,6 +28,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.BUTTER));
                 stacks.add(new ItemStack(ModItems.SALT));
                 stacks.add(new ItemStack(ModItems.PRETZEL));
+                stacks.add(new ItemStack(ModItems.PRETZEL_DOUGH));
                 stacks.add(new ItemStack(ModItems.CHICKEN_SANDWICH));
                 stacks.add(new ItemStack(ModItems.FISH_SANDWICH));
                 stacks.add(new ItemStack(ModItems.TOMATO));
@@ -43,6 +44,12 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.WAFFLE));
                 stacks.add(new ItemStack(ModItems.PANCAKE_DOUGH));
                 stacks.add(new ItemStack(ModItems.PANCAKE));
+                stacks.add(new ItemStack(ModItems.CUPCAKE));
+                stacks.add(new ItemStack(ModItems.CUPCAKE_DOUGH));
+                stacks.add(new ItemStack(ModItems.KETCHUP));
+                stacks.add(new ItemStack(ModItems.HOTDOG));
+                stacks.add(new ItemStack(ModItems.CEREAL));
+                stacks.add(new ItemStack(ModItems.CHEESE));
             })
             .build();
     // ...
