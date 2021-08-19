@@ -30,6 +30,6 @@ public class CropBlock extends net.minecraft.block.CropBlock {
     }
 
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return AGE_TO_SHAPE[(Integer)state.get(this.getAgeProperty())];
+        return AGE_TO_SHAPE[(Integer) state.get(this.getAgeProperty())];
     }
 }
