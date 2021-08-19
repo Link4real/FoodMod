@@ -8,8 +8,10 @@ jobs:
         uses: actions/checkout@v2
       - name: Build
         uses: actions/download-artifact@v2
-      - name: Test
-        run: ls -lStr build/libs/
+        with:
+          name: Artifacts
+      - name: display file struct
+        run: ls -lStr
       - name: Release
         uses: softprops/action-gh-release@v1
         with: |
