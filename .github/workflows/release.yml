@@ -1,0 +1,16 @@
+name: Main
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build
+        uses: actions/download-artifact@v2
+      - name: Test
+        run: ls -lStr build/libs/
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with: |
+          LICENSE
