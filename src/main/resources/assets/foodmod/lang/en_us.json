@@ -52,7 +52,9 @@
   "item.foodmod.raw_pepperoni_pizza": "Raw Pepperoni Pizza",
   "item.foodmod.raw_fish_pizza": "Raw Fish Pizza",
   "item.foodmod.raw_pizza_margherita": "Raw Pizza Margherita",
-  "item.foodmod.raw_greek_pizza": "Raw Greek Pizza"
+  "item.foodmod.raw_greek_pizza": "Raw Greek Pizza",
+  "block.foodmod.tomato_crop": "Tomato Crop",
+  "item.foodmod.tomato_seeds": "Tomato Seeds"
 
 
 

@@ -52,5 +52,7 @@
   "item.foodmod.raw_pepperoni_pizza": "Rohe Salami Pizza",
   "item.foodmod.raw_fish_pizza": "Rohe Pizza mit Meeresfrüchten",
   "item.foodmod.raw_pizza_margherita": "Rohe Pizza Margherita",
-  "item.foodmod.raw_greek_pizza": "Rohe Pizza griechischer Art"
+  "item.foodmod.raw_greek_pizza": "Rohe Pizza griechischer Art",
+  "block.foodmod.tomato_crop": "Tomaten Pflanze",
+  "item.foodmod.tomato_seeds": "Tomaten Samen"
 }

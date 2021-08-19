@@ -1,12 +1,20 @@
 package com.link.food.mod;
 
-import com.link.food.mod.registry.ModItems;
-import com.link.food.mod.registry.PizzaItems;
+import com.link.food.mod.registry.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Material;
+import net.minecraft.item.AliasedBlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
+
+import static com.link.food.mod.registry.Crops.TOMATO_CROP;
+import static com.link.food.mod.registry.Crops.TOMATO_SEEDS;
 
 public class Main implements ModInitializer {
 
@@ -51,6 +59,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.HOTDOG));
                 stacks.add(new ItemStack(ModItems.CEREAL));
                 stacks.add(new ItemStack(ModItems.CHEESE));
+                stacks.add(new ItemStack(TOMATO_SEEDS));
             })
             .build();
     // ...
@@ -78,11 +87,15 @@ public class Main implements ModInitializer {
             .build();
     // ...
 
-
     @Override
     public void onInitialize() {
         PizzaItems.registerItems();
         ModItems.registerItems();
+        Registry.register(Registry.BLOCK, new Identifier("foodmod", "tomato_crop"), TOMATO_CROP);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);
+
+
+
     }
 }
 
