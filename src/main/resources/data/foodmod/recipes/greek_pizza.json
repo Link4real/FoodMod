@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "minecraft:raw_greek_pizza"
+    "item": "foodmod:raw_greek_pizza"
   },
   "result": "foodmod:greek_pizza",
   "experience": 0.2,

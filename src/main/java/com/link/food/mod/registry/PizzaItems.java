@@ -41,7 +41,7 @@ public class PizzaItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "raw_fish_pizza"), RAW_FISH_PIZZA);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "raw_pepperoni_pizza"), RAW_PEPPERONI_PIZZA);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "raw_pizza_margherita"), RAW_PIZZA_MARGHARITA);
-        Registry.register(Registry.ITEM, new Identifier("foodmod", "raw_greek_pizza"), GREEK_PIZZA);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "raw_greek_pizza"), RAW_GREEK_PIZZA);
 
     }
 }

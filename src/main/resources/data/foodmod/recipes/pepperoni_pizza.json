@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "minecraft:raw_pepperoni_pizza"
+    "item": "foodmod:raw_pepperoni_pizza"
   },
   "result": "foodmod:pepperoni_pizza",
   "experience": 0.2,

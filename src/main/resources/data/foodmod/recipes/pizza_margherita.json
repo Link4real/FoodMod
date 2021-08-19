@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "minecraft:raw_pizza_margherita"
+    "item": "foodmod:raw_pizza_margherita"
   },
   "result": "foodmod:pizza_margherita",
   "experience": 0.2,
