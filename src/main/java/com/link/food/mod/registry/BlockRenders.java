@@ -7,5 +7,7 @@ public class BlockRenders {
 
     public static void defineRenders() {
         BlockRenderLayerMap.INSTANCE.putBlock(Crops.TOMATO_CROP, RenderLayer.getCutoutMipped());
+        BlockRenderLayerMap.INSTANCE.putBlock(Crops.ONION_CROP, RenderLayer.getCutoutMipped());
+
     }
 }

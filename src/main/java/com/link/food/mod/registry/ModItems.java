@@ -48,6 +48,7 @@ public class ModItems {
     public static final Item CEREAL = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(5f).build()));
     public static final Item CHEESE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(2).saturationModifier(3f).build()));
     public static final Item WATER = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item ONION = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(1).saturationModifier(1f).build()));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "mango"), MANGO);
@@ -86,6 +87,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "cereal"), CEREAL);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "cheese"), CHEESE);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "water"), WATER);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "onion"), ONION);
     }
 }
 

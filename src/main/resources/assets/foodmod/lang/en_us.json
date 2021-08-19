@@ -54,9 +54,10 @@
   "item.foodmod.raw_pizza_margherita": "Raw Pizza Margherita",
   "item.foodmod.raw_greek_pizza": "Raw Greek Pizza",
   "block.foodmod.tomato_crop": "Tomato Crop",
-  "item.foodmod.tomato_seeds": "Tomato Seeds"
-
-
+  "item.foodmod.tomato_seeds": "Tomato Seeds",
+  "item.foodmod.onion": "Onion",
+  "block.foodmod.onion_crop": "Onion Crop",
+  "item.foodmod.onion_seeds": "Onion Seeds"
 
 
 }

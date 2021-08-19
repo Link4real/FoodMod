@@ -13,8 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import static com.link.food.mod.registry.Crops.TOMATO_CROP;
-import static com.link.food.mod.registry.Crops.TOMATO_SEEDS;
+import static com.link.food.mod.registry.Crops.*;
 
 public class Main implements ModInitializer {
 
@@ -60,6 +59,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.CEREAL));
                 stacks.add(new ItemStack(ModItems.CHEESE));
                 stacks.add(new ItemStack(TOMATO_SEEDS));
+                stacks.add(new ItemStack(ModItems.ONION));
             })
             .build();
     // ...
@@ -93,6 +93,8 @@ public class Main implements ModInitializer {
         ModItems.registerItems();
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "tomato_crop"), TOMATO_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);
+        Registry.register(Registry.BLOCK, new Identifier("foodmod", "onion_crop"), ONION_CROP);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "onion_seeds"), ONION_SEEDS);
 
 
 

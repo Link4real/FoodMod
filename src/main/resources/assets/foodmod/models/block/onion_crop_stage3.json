@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "foodmod:blocks/onion_crop_stage3"
+  }
+}

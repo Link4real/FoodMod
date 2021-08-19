@@ -54,5 +54,8 @@
   "item.foodmod.raw_pizza_margherita": "Rohe Pizza Margherita",
   "item.foodmod.raw_greek_pizza": "Rohe Pizza griechischer Art",
   "block.foodmod.tomato_crop": "Tomaten Pflanze",
-  "item.foodmod.tomato_seeds": "Tomaten Samen"
+  "item.foodmod.tomato_seeds": "Tomaten Samen",
+  "item.foodmod.onion": "Zwiebel",
+  "block.foodmod.onion_crop": "Zwiebel Pflanze",
+  "item.foodmod.onion_seeds": "Zwiebel Samen"
 }
