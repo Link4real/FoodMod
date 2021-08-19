@@ -37,19 +37,3 @@ jobs:
         with:
           name: Artifacts
           path: build/libs/
-  release:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Build
-        uses: actions/download-artifact@v2
-        with:
-          name: Artifacts
-      - name: display file struct
-        run: ls -lStr
-      - name: Release
-        uses: softprops/action-gh-release@v1
-        with: |
-          LICENSE
