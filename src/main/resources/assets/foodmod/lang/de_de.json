@@ -59,5 +59,7 @@
   "item.foodmod.onion_seeds": "Zwiebel Samen",
   "item.foodmod.peach_crop": "Pfirsich Pflanze",
   "item.foodmod.peach": "Pfirsich",
-
+  "item.foodmod.orange_seeds": "Orangen Samen",
+  "item.foodmod.orange_crop": "Orangen Pflanze",
+  "item.foodmod.pizza_margherita.tooltip": "Alter Klassiker"
 }

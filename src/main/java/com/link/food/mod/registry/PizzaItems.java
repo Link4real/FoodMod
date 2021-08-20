@@ -1,5 +1,6 @@
 package com.link.food.mod.registry;
 
+import com.link.food.mod.FabricItem;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -14,7 +15,7 @@ public class PizzaItems {
     public static final Item PEPPERONI = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(5f).build()));
     public static final Item PEPPERONI_PIZZA = new Item(new Item.Settings().group(ItemGroup.FOOD).maxCount(1).food(new FoodComponent.Builder().hunger(12).saturationModifier(8f).build()));
     public static final Item FISH_PIZZA = new Item(new Item.Settings().group(ItemGroup.FOOD).maxCount(1).food(new FoodComponent.Builder().hunger(12).saturationModifier(8f).build()));
-    public static final Item PIZZA_MARGHERITA = new Item(new Item.Settings().group(ItemGroup.FOOD).maxCount(1).food(new FoodComponent.Builder().hunger(12).saturationModifier(8f).build()));
+    public static final Item PIZZA_MARGHERITA = new FabricItem(new Item.Settings().group(ItemGroup.FOOD).maxCount(1).food(new FoodComponent.Builder().hunger(12).saturationModifier(8f).build()));
     public static final Item OLIVE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(1).saturationModifier(3f).build()));
     public static final Item GREEK_PIZZA = new Item(new Item.Settings().group(ItemGroup.FOOD).maxCount(1).food(new FoodComponent.Builder().hunger(12).saturationModifier(9f).build()));
     //Raw

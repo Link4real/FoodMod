@@ -16,7 +16,7 @@ public class FabricItem extends Item {
     }
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add(new TranslatableText("item.foodmod.fabric-item.tooltip").formatted(Formatting.GRAY));
+        tooltip.add(new TranslatableText("item.foodmod.pizza_margherita.tooltip").formatted(Formatting.GRAY));
     }
 }
 //All of this is a placeholder for later use!

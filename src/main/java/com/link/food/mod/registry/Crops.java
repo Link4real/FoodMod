@@ -16,10 +16,13 @@ public class Crops implements ModInitializer {
     public static final CropBlock TOMATO_CROP = new CropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final CropBlockOnion ONION_CROP = new CropBlockOnion(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final CropBlockPeach PEACH_CROP = new CropBlockPeach(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
+    public static final OrangeCropBlock ORANGE_CROP = new OrangeCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
+
 
     public static final Item ONION_SEEDS = new AliasedBlockItem(Crops.ONION_CROP, new Item.Settings().group(ItemGroup.MISC));
     public static final Item TOMATO_SEEDS = new AliasedBlockItem(Crops.TOMATO_CROP, new Item.Settings().group(ItemGroup.MISC));
     public static final Item PEACH = new AliasedBlockItem(Crops.PEACH_CROP, new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(4f).build()));
+    public static final Item ORANGE_SEEDS = new AliasedBlockItem(Crops.ORANGE_CROP, new Item.Settings().group(ItemGroup.MISC));
 
     @Override
     public void onInitialize() {
@@ -27,9 +30,11 @@ public class Crops implements ModInitializer {
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "tomato_crop"), TOMATO_CROP);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "onion_crop"), ONION_CROP);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "peach_crop"), PEACH_CROP);
+        Registry.register(Registry.BLOCK, new Identifier("foodmod", "orange_crop"), ORANGE_CROP);
 
         Registry.register(Registry.ITEM, new Identifier("foodmod", "onion_seeds"), ONION_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "peach"), PEACH);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "orange_seeds"), ORANGE_SEEDS);
     }
 }

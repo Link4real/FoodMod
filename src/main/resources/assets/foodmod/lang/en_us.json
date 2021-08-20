@@ -59,5 +59,7 @@
   "item.foodmod.onion_seeds": "Onion Seeds",
   "item.foodmod.peach_crop": "Peach Crop",
   "item.foodmod.peach": "Peach",
-
+  "item.foodmod.orange_seeds": "Orange Seeds",
+  "itemm.foodmod.organe_crop": "Orange Crop",
+  "item.foodmod.pizza_margherita.tooltip": "Old classic"
 }
