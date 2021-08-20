@@ -37,13 +37,12 @@
     "java": ">=16"
   },
   "suggests": {
-    "another-mod": "Cursed Mod by Link4real"
+    "cursed-mod": "Cursed Mod by Link4real"
   },
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.updates": "https://link4real.github.io/updates.html",
-        "modmenu.wiki": "https://link4real.github.io/wiki"
+        "modmenu.updates": "https://link4real.github.io/updates.html"
       }
     }
   }
