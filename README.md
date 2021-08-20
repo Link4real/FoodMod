@@ -4,8 +4,6 @@
 
 <p style="font-size:25px;" align="center"><a href="https://link4real.github.io/food">Website</a></p>
 
-<p style="font-size:25px;" align="center"><a href="https://link4real.github.io/wiki/food">Wiki</a></p>
-
 <p align="center"><img valign="middle" src="https://i.imgur.com/zmgIrhN.png" width="120px"></p>
 
 <p align="center">this project is under the MIT license</p>
