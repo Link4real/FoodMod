@@ -56,7 +56,8 @@
   "item.foodmod.tomato_seeds": "Tomato Seeds",
   "item.foodmod.onion": "Onion",
   "block.foodmod.onion_crop": "Onion Crop",
-  "item.foodmod.onion_seeds": "Onion Seeds"
-
+  "item.foodmod.onion_seeds": "Onion Seeds",
+  "item.foodmod.peach_crop": "Peach Crop",
+  "item.foodmod.peach": "Peach",
 
 }

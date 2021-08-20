@@ -59,7 +59,9 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.CEREAL));
                 stacks.add(new ItemStack(ModItems.CHEESE));
                 stacks.add(new ItemStack(TOMATO_SEEDS));
+                stacks.add(new ItemStack(ONION_SEEDS));
                 stacks.add(new ItemStack(ModItems.ONION));
+                stacks.add(new ItemStack(PEACH));
             })
             .build();
     // ...
@@ -95,6 +97,8 @@ public class Main implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "onion_crop"), ONION_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "onion_seeds"), ONION_SEEDS);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "peach"), PEACH);
+        Registry.register(Registry.BLOCK, new Identifier("foodmod", "peach_crop"), PEACH_CROP);
 
 
 

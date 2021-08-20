@@ -56,5 +56,8 @@
   "item.foodmod.tomato_seeds": "Tomaten Samen",
   "item.foodmod.onion": "Zwiebel",
   "block.foodmod.onion_crop": "Zwiebel Pflanze",
-  "item.foodmod.onion_seeds": "Zwiebel Samen"
+  "item.foodmod.onion_seeds": "Zwiebel Samen",
+  "item.foodmod.peach_crop": "Pfirsich Pflanze",
+  "item.foodmod.peach": "Pfirsich",
+
 }
