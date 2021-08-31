@@ -3,11 +3,9 @@
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:uniform",
         "min": 3,
         "max": 8
       },
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -16,7 +14,6 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 8
               }
@@ -30,11 +27,9 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
-              },
-              "add": false
+              }
             }
           ]
         },
@@ -56,11 +51,9 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
-              },
-              "add": false
+              }
             }
           ]
         },
@@ -72,11 +65,9 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 5
-              },
-              "add": false
+              }
             }
           ]
         },
@@ -88,11 +79,9 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
-              },
-              "add": false
+              }
             }
           ]
         },
@@ -104,11 +93,9 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
-              },
-              "add": false
+              }
             }
           ]
         },
@@ -123,11 +110,9 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
-              },
-              "add": false
+              }
             }
           ]
         },
