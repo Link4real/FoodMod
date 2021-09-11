@@ -61,7 +61,8 @@
       "foodmod:waffle",
       "foodmod:waffle_dough",
       "foodmod:water",
-      "foodmod:yeast"
+      "foodmod:yeast",
+      "foodmod:orange_seeds"
     ]
   }
 }

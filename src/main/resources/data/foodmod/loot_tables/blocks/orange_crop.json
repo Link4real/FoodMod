@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "foodmod:mango",
+              "name": "foodmod:orange",
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
