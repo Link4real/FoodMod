@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Food Mod",
-  "description": "We need more pizza!",
+  "description": "That's very tasty!",
   "authors": [
     "Link4real",
     "legendary-cookie"
@@ -42,7 +42,8 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.updates": "https://link4real.github.io/updates.html"
+        "modmenu.updates": "https://link4real.github.io/updates.html",
+        "modmenu.cosmo": "https://dsc.gg/cosmoclient"
       }
     }
   }

@@ -1,0 +1,67 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "foodmod:flour"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "foodmod:bread_dough",
+      "foodmod:bun",
+      "foodmod:burger",
+      "foodmod:butter",
+      "foodmod:cereal",
+      "foodmod:cheese",
+      "foodmod:cheese_pizza",
+      "foodmod:chicken_sandwich",
+      "foodmod:cupcake",
+      "foodmod:cupcake_dough",
+      "foodmod:fish_pizza",
+      "foodmod:fish_sandwich",
+      "foodmod:fried_egg",
+      "foodmod:sausage",
+      "foodmod:fried_sausage",
+      "foodmod:fries",
+      "foodmod:greek_pizza",
+      "foodmod:hotdog",
+      "foodmod:ketchup",
+      "foodmod:lettuce",
+      "foodmod:onion_seeds",
+      "foodmod:pancake",
+      "foodmod:pancake_dough",
+      "foodmod:pepperoni",
+      "foodmod:pepperoni_pizza",
+      "foodmod:pizza_dough",
+      "foodmod:pizza_margherita",
+      "foodmod:pretzel",
+      "foodmod:pretzel_dough",
+      "foodmod:raw_cheese_pizza",
+      "foodmod:raw_fish_pizza",
+      "foodmod:raw_greek_pizza",
+      "foodmod:raw_pepperoni_pizza",
+      "foodmod:raw_pizza_margherita",
+      "foodmod:salsa",
+      "foodmod:salt",
+      "foodmod:sunflower_oil",
+      "foodmod:taco",
+      "foodmod:taco_shell",
+      "foodmod:toast",
+      "foodmod:tomato_sauce",
+      "foodmod:tomato_seeds",
+      "foodmod:tortilla",
+      "foodmod:waffle",
+      "foodmod:waffle_dough",
+      "foodmod:water",
+      "foodmod:yeast"
+    ]
+  }
+}
