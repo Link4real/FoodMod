@@ -3,7 +3,7 @@
   "id": "foodmod",
   "version": "${version}",
 
-  "name": "Food Mod",
+  "name": "FoodMod for Fabric",
   "description": "That's very tasty!",
   "authors": [
     "Link4real",
@@ -43,7 +43,8 @@
     "modmenu": {
       "links": {
         "modmenu.updates": "https://link4real.github.io/updates.html",
-        "modmenu.cosmo": "https://dsc.gg/cosmoclient"
+        "modmenu.cosmo": "https://dsc.gg/cosmoclient",
+        "modmenu.trello": "https://trello.com/foodmodforfabric"
       }
     }
   }

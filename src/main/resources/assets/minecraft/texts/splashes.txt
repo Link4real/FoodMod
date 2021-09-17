@@ -5,12 +5,13 @@ Pure fun since 8.17.2021!
 That's very tasty!
 me when
 v1.3: The rule and history of pizza
-On Curseforge and Modrinth!
+On Curseforge, Modrinth and Github!
 This text was added in v1.1!
 This text was added in v1.2!
 This text was added in v1.3!
-over 200 downloads!!!!!!!
+over 300 downloads!!!!!!!
 This text was added in v1.5!
+tHiS tExT wAs AdDeD iN v1.6!!!!!!
 legendary-cookie is cool
 No Forge ports!!!
 MIT-License
@@ -25,3 +26,5 @@ Food made from the heart
 Where taste and health can not meet
 Taste the new hunger
 Download Cosmoclient
+BLM!
+Now extra healthy!

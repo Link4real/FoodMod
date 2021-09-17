@@ -1,23 +1,15 @@
 package com.link.food.mod.registry;
 
-
-import com.link.food.mod.FabricItem;
-import com.mojang.datafixers.types.families.TypeFamily;
-import com.mojang.datafixers.types.templates.List;
-import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
-import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
-import net.minecraft.util.Formatting;
+
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import net.minecraft.world.World;
 
 public class ModItems {
 
-    public static final Item MANGO = new FabricItem(new Item.Settings().group(ItemGroup.FOOD).maxCount(64).food(new FoodComponent.Builder().hunger(3).saturationModifier(5f).build()));
+    public static final Item MANGO = new Item(new Item.Settings().group(ItemGroup.FOOD).maxCount(64).food(new FoodComponent.Builder().hunger(3).saturationModifier(5f).build()));
     public static final Item SALAD = new Item(new Item.Settings().group(ItemGroup.FOOD).maxCount(16).food(new FoodComponent.Builder().hunger(5).saturationModifier(2f).build()));
     public static final Item BURGER = new Item(new Item.Settings().group(ItemGroup.FOOD).maxCount(16).food(new FoodComponent.Builder().hunger(8).saturationModifier(7f).build()));
     public static final Item BUN = new Item(new Item.Settings().group(ItemGroup.FOOD).maxCount(64).food(new FoodComponent.Builder().hunger(2).saturationModifier(4f).build()));
@@ -55,6 +47,8 @@ public class ModItems {
     public static final Item WATER = new Item(new Item.Settings().group(ItemGroup.MISC));
     public static final Item ONION = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(1).saturationModifier(1f).build()));
     public static final Item ORANGE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(4f).build()));
+    public static final Item STRAWBERRY = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(5f).snack().build()));
+    public static final Item FRUIT_SALAD = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(13).saturationModifier(6f).build()));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "mango"), MANGO);
@@ -95,7 +89,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "water"), WATER);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "onion"), ONION);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "orange"), ORANGE);
-
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "strawberry"), STRAWBERRY);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "fruit_salad"), FRUIT_SALAD);
     }
 }
 

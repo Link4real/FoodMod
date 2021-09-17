@@ -58,12 +58,9 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.HOTDOG));
                 stacks.add(new ItemStack(ModItems.CEREAL));
                 stacks.add(new ItemStack(ModItems.CHEESE));
-                stacks.add(new ItemStack(TOMATO_SEEDS));
-                stacks.add(new ItemStack(ONION_SEEDS));
-                stacks.add(new ItemStack(ORANGE_SEEDS));
-                 stacks.add(new ItemStack(ModItems.ONION));
-                stacks.add(new ItemStack(PEACH));
+                stacks.add(new ItemStack(ModItems.ONION));
                 stacks.add(new ItemStack(ModItems.ORANGE));
+                stacks.add(new ItemStack(ModItems.STRAWBERRY));
             })
             .build();
     // ...
@@ -91,6 +88,19 @@ public class Main implements ModInitializer {
             .build();
     // ...
 
+    public static final ItemGroup SEEDS = FabricItemGroupBuilder.create(
+            new Identifier("foodmod", "seeds"))
+            .icon(() -> new ItemStack(TOMATO_SEEDS))
+            .appendItems(stacks -> {
+                stacks.add(new ItemStack(TOMATO_SEEDS));
+                stacks.add(new ItemStack(ONION_SEEDS));
+                stacks.add(new ItemStack(ORANGE_SEEDS));
+                stacks.add(new ItemStack(PEACH));
+                stacks.add(new ItemStack(STRAWBERRIE_SEEDS));
+            })
+            .build();
+    // ...
+
     @Override
     public void onInitialize() {
         PizzaItems.registerItems();
@@ -103,6 +113,8 @@ public class Main implements ModInitializer {
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "peach_crop"), PEACH_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "orange_seeds"), ORANGE_SEEDS);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "orange_crop"), ORANGE_CROP);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "strawberry_seeds"), STRAWBERRIE_SEEDS);
+        Registry.register(Registry.BLOCK, new Identifier("foodmod", "strawberry_crop"), STRAWBERRIE_CROP);
 
     }
 }

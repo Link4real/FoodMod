@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:strawberry"
+    }
+  ],
+  "result": {
+    "item": "foodmod:strawberry_seeds",
+    "count": 10
+  }
+}

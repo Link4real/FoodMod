@@ -3,6 +3,7 @@
   "item.foodmod.lettuce": "Lettuce",
   "modmenu.updates": "Updates",
   "modmenu.cosmo": "Cosmoclient Discord",
+  "modmenu.trello": "Trello",
   "item.foodmod.burger": "Burger",
   "item.foodmod.bun": "Bun",
   "item.foodmod.flour": "Flour",
@@ -25,6 +26,7 @@
   "item.foodmod.salsa": "Salsa",
   "itemGroup.foodmod.main": "FoodMod",
   "itemGroup.foodmod.pizza": "Pizza",
+  "itemGroup.foodmod.seeds": "Seeds",
   "item.foodmod.water": "Water",
   "item.foodmod.toast": "Toast",
   "item.foodmod.bread_dough": "Bread Dough",
@@ -63,5 +65,9 @@
   "item.foodmod.orange_seeds": "Orange Seeds",
   "itemm.foodmod.organe_crop": "Orange Crop",
   "item.foodmod.pizza_margherita.tooltip": "Old classic",
-  "item.foodmod.orange": "Orange"
+  "item.foodmod.orange": "Orange",
+  "item.foodmod.strawberry_seeds": "Strawberry Seeds",
+  "block.foodmod.strawberry_crop": "Strawberry Crop",
+  "item.foodmod.strawberry": "Strawberry",
+  "item.foodmod.fruit_salad": "Fruit Salad"
 }
