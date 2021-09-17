@@ -11,6 +11,17 @@
             {
               "type": "minecraft:item",
               "name": "foodmod:strawberry",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 4
+                  },
+                  "add": true
+                }
+              ],
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
@@ -42,7 +53,7 @@
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:binomial_with_bonus_count",
               "parameters": {
-                "extra": 3,
+                "extra": 4,
                 "probability": 0.5714286
               }
             }
