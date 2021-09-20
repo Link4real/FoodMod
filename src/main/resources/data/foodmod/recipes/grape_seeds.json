@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:grape"
+    }
+  ],
+  "result": {
+    "item": "foodmod:grape_seeds",
+    "count": 2
+  }
+}

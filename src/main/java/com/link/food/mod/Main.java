@@ -3,16 +3,12 @@ package com.link.food.mod;
 import com.link.food.mod.registry.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Material;
-import net.minecraft.item.AliasedBlockItem;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import static com.link.food.mod.registry.Crops.*;
+import static com.link.food.mod.Crops.Crops.*;
 
 public class Main implements ModInitializer {
 
@@ -60,6 +56,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.ONION));
                 stacks.add(new ItemStack(ModItems.ORANGE));
                 stacks.add(new ItemStack(ModItems.STRAWBERRY));
+                stacks.add(new ItemStack(ModItems.GRAPE));
             })
             .build();
     // ...

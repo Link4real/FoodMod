@@ -4,7 +4,7 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 
-import static com.link.food.mod.registry.Crops.*;
+import static com.link.food.mod.Crops.Crops.*;
 
 public class FoodModClient implements ClientModInitializer {
     @Override

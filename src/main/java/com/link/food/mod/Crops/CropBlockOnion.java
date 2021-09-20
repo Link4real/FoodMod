@@ -1,4 +1,4 @@
-package com.link.food.mod.registry;
+package com.link.food.mod.Crops;
 
 import net.minecraft.block.*;
 import net.minecraft.item.ItemConvertible;

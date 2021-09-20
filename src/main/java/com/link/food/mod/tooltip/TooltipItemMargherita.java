@@ -1,4 +1,4 @@
-package com.link.food.mod;
+package com.link.food.mod.tooltip;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
@@ -10,8 +10,8 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class FabricItem extends Item {
-    public FabricItem(Settings settings) {
+public class TooltipItemMargherita extends Item {
+    public TooltipItemMargherita(Settings settings) {
         super(settings);
     }
     @Override
