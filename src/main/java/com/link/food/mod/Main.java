@@ -8,7 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import static com.link.food.mod.Crops.Crops.*;
+import static com.link.food.mod.registry.Crops.*;
 
 public class Main implements ModInitializer {
 

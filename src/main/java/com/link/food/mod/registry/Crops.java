@@ -1,6 +1,6 @@
-package com.link.food.mod.Crops;
+package com.link.food.mod.registry;
 
-import com.link.food.mod.Crops.TomatoCropBlock;
+import com.link.food.mod.Crops.*;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Material;

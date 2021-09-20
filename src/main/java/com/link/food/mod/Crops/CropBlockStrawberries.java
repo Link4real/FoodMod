@@ -1,5 +1,6 @@
 package com.link.food.mod.Crops;
 
+import com.link.food.mod.registry.Crops;
 import net.minecraft.block.*;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.util.math.BlockPos;

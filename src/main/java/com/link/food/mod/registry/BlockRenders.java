@@ -1,6 +1,5 @@
 package com.link.food.mod.registry;
 
-import com.link.food.mod.Crops.Crops;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 
