@@ -18,12 +18,14 @@ public class Crops implements ModInitializer {
     public static final CropBlockPeach PEACH_CROP = new CropBlockPeach(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final OrangeCropBlock ORANGE_CROP = new OrangeCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final CropBlockStrawberries STRAWBERRIE_CROP = new CropBlockStrawberries(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
+    public static final CropBlockGrape GRAPE_CROP = new CropBlockGrape(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
 
     public static final Item ONION_SEEDS = new AliasedBlockItem(Crops.ONION_CROP, new Item.Settings().group(ItemGroup.MISC));
     public static final Item TOMATO_SEEDS = new AliasedBlockItem(Crops.TOMATO_CROP, new Item.Settings().group(ItemGroup.MISC));
     public static final Item PEACH = new AliasedBlockItem(Crops.PEACH_CROP, new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(4f).build()));
     public static final Item ORANGE_SEEDS = new AliasedBlockItem(Crops.ORANGE_CROP, new Item.Settings().group(ItemGroup.MISC));
     public static final Item STRAWBERRIE_SEEDS = new AliasedBlockItem(Crops.STRAWBERRIE_CROP, new Item.Settings().group(ItemGroup.MISC));
+    public static final Item GRAPE_SEEDS = new AliasedBlockItem(Crops.GRAPE_CROP, new Item.Settings().group(ItemGroup.MISC));
 
     @Override
     public void onInitialize() {
@@ -33,11 +35,13 @@ public class Crops implements ModInitializer {
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "peach_crop"), PEACH_CROP);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "orange_crop"), ORANGE_CROP);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "strawberry_crop"), STRAWBERRIE_CROP);
+        Registry.register(Registry.BLOCK, new Identifier("foodmod", "grape_crop"), GRAPE_CROP);
 
         Registry.register(Registry.ITEM, new Identifier("foodmod", "onion_seeds"), ONION_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "peach"), PEACH);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "orange_seeds"), ORANGE_SEEDS);
         Registry.register(Registry.ITEM ,new Identifier("foodmod", "strawberry_seeds"), STRAWBERRIE_SEEDS);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "grape_seeds"), GRAPE_SEEDS);
     }
 }

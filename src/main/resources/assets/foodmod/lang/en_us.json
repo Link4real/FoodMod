@@ -69,5 +69,8 @@
   "item.foodmod.strawberry_seeds": "Strawberry Seeds",
   "block.foodmod.strawberry_crop": "Strawberry Crop",
   "item.foodmod.strawberry": "Strawberry",
-  "item.foodmod.fruit_salad": "Fruit Salad"
+  "item.foodmod.fruit_salad": "Fruit Salad",
+  "item.foodmod.grape_seeds": "Grape Seeds",
+  "block.foodmod.grape_crop": "Grape Crop",
+  "item.foodmod.grape": "Grape"
 }

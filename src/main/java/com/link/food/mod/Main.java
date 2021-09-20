@@ -9,7 +9,6 @@ import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -97,6 +96,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ORANGE_SEEDS));
                 stacks.add(new ItemStack(PEACH));
                 stacks.add(new ItemStack(STRAWBERRIE_SEEDS));
+                stacks.add(new ItemStack(GRAPE_SEEDS));
             })
             .build();
     // ...
@@ -115,6 +115,8 @@ public class Main implements ModInitializer {
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "orange_crop"), ORANGE_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "strawberry_seeds"), STRAWBERRIE_SEEDS);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "strawberry_crop"), STRAWBERRIE_CROP);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "grape_seeds"), GRAPE_SEEDS);
+        Registry.register(Registry.BLOCK, new Identifier("foodmod", "grape_crop"), GRAPE_CROP);
 
     }
 }
