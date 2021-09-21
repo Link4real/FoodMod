@@ -20,7 +20,7 @@
                 "min": 2,
                 "max": 5
               },
-              "add": true
+              "add": false
             }
           ]
         },
@@ -31,7 +31,7 @@
             {
               "function": "minecraft:set_count",
               "count": 8,
-              "add": true
+              "add": false
             }
           ]
         },
@@ -46,7 +46,7 @@
                 "min": 1,
                 "max": 9
               },
-              "add": true
+              "add": false
             }
           ]
         },

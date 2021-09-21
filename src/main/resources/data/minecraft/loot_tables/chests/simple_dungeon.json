@@ -20,7 +20,7 @@
                 "min": 2,
                 "max": 5
               },
-              "add": true
+              "add": false
             }
           ]
         },
@@ -35,7 +35,7 @@
                 "min": 5,
                 "max": 10
               },
-              "add": true
+              "add": false
             }
           ],
           "conditions": [
@@ -44,6 +44,11 @@
               "chance": 0.9
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "foodmod:strawberry"
         },
         {
           "type": "minecraft:item",

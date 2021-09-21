@@ -52,6 +52,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.KETCHUP));
                 stacks.add(new ItemStack(ModItems.HOTDOG));
                 stacks.add(new ItemStack(ModItems.CEREAL));
+                stacks.add(new ItemStack(ModItems.FRUIT_SALAD));
                 stacks.add(new ItemStack(ModItems.CHEESE));
                 stacks.add(new ItemStack(ModItems.ONION));
                 stacks.add(new ItemStack(ModItems.ORANGE));
