@@ -64,7 +64,8 @@
       "foodmod:yeast",
       "foodmod:orange_seeds",
       "foodmod:strawberry_seeds",
-      "foodmod:grape_seeds"
+      "foodmod:grape_seeds",
+      "foodmod:chocolate"
     ]
   }
 }
