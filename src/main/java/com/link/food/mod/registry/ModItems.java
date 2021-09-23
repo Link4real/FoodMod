@@ -1,5 +1,6 @@
 package com.link.food.mod.registry;
 
+import com.link.food.mod.tooltip.TooltipItemChocolate;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
@@ -50,6 +51,7 @@ public class ModItems {
     public static final Item STRAWBERRY = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(5f).snack().build()));
     public static final Item FRUIT_SALAD = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(13).saturationModifier(6f).build()));
     public static final Item GRAPE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(2).saturationModifier(3f).build()));
+    public static final Item CHOCOLATE = new TooltipItemChocolate(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(5f).build()));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "mango"), MANGO);
@@ -93,6 +95,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "strawberry"), STRAWBERRY);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "fruit_salad"), FRUIT_SALAD);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "grape"), GRAPE);
+        Registry.register(Registry.ITEM, new Identifier("foodmod","chocolate"), CHOCOLATE);
     }
 }
 

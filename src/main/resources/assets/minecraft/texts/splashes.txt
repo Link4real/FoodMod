@@ -10,19 +10,19 @@ On Curseforge, Modrinth and Github!
 This text was added in v1.1!
 This text was added in v1.2!
 This text was added in v1.3!
-over 350 downloads!!!!!!!
+over 400 downloads!!!!!!!
 This text was added in v1.5!
 tHiS tExT wAs AdDeD iN v1.6!!!!!!
+this text was added in v1.7!
 No Forge ports!!!
 MIT-License
-/give @a foodmod:strawberry 64
+/give @a foodmod:chocolate 64
 i'm eating it
 Finger Lickin' Good
 Have it your way!
 Bite Into Goodness
 Never too much fries
-Food made from the heart
-Where taste and health can not meet
+Food made from the heart and code
 Taste the new hunger
 Download Cosmoclient
 BLM!
