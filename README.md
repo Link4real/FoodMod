@@ -13,5 +13,4 @@
 <p align="center"><img valign="middle" src="https://i.imgur.com/zmgIrhN.png" width="120px"></p>
 
 <p align="center">this project is under the MIT license</p>
-[MIT License](docs/LICENSE)
 <p align="center">Please respect the license in any way!</p>
