@@ -1,5 +1,9 @@
 <h1 style="font-size:60px;"align="center">Food Mod</h1>
 
+<h1>The development of the mod is interrupted for a short time</h1>
+<h1> We will be back soon! :) </h1>
+<p> (about the end of the year) </p>
+
 <p style="font-size:36px;" align="center">This is a Minecraft Mod for Fabric</p>
 
 <p style="font-size:25px;" align="center"><a href="https://link4real.github.io/food">Website</a></p>
