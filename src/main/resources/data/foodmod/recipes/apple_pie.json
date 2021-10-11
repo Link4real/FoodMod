@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "foodmod:butter"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "foodmod:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "foodmod:apple_pie",
+    "count": 1
+  }
+}

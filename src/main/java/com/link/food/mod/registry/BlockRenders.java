@@ -12,5 +12,6 @@ public class BlockRenders {
         BlockRenderLayerMap.INSTANCE.putBlock(Crops.ORANGE_CROP, RenderLayer.getCutoutMipped());
         BlockRenderLayerMap.INSTANCE.putBlock(Crops.STRAWBERRIE_CROP, RenderLayer.getCutoutMipped());
         BlockRenderLayerMap.INSTANCE.putBlock(Crops.GRAPE_CROP, RenderLayer.getCutoutMipped());
+        BlockRenderLayerMap.INSTANCE.putBlock(Crops.RICE_CROP, RenderLayer.getCutoutMipped());
     }
 }
