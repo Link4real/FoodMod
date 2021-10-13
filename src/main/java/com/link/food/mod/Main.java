@@ -60,6 +60,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.GRAPE));
                 stacks.add(new ItemStack(ModItems.CHOCOLATE));
                 stacks.add(new ItemStack(ModItems.APPLE_PIE));
+                stacks.add(new ItemStack(ModItems.RICE));
             })
             .build();
     // ...

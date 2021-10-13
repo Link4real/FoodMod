@@ -77,5 +77,5 @@
   "item.foodmod.chocolate": "Chocolate",
   "item.foodmod.apple_pie": "Apple Pie",
   "block.foodmod.rice_crop": "Rice Crop",
-  "block.foodmod.rice_seeds": "Rice Seeds"
+  "item.foodmod.rice_seeds": "Rice Seeds"
 }
