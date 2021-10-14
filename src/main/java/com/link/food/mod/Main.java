@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 import static com.link.food.mod.registry.Crops.*;
+import static com.link.food.mod.registry.SushiItems.FISH_SUSHI;
 
 public class Main implements ModInitializer {
 
@@ -88,6 +89,17 @@ public class Main implements ModInitializer {
             .build();
     // ...
 
+
+    public static final ItemGroup SUSHI = FabricItemGroupBuilder.create(
+            new Identifier("foodmod", "sushi"))
+            .icon(() -> new ItemStack(FISH_SUSHI))
+            .appendItems(stacks -> {
+                  stacks.add(new ItemStack(FISH_SUSHI));
+            })
+            .build();
+    // ...
+
+
     public static final ItemGroup SEEDS = FabricItemGroupBuilder.create(
             new Identifier("foodmod", "seeds"))
             .icon(() -> new ItemStack(TOMATO_SEEDS))
@@ -107,6 +119,7 @@ public class Main implements ModInitializer {
     public void onInitialize() {
         PizzaItems.registerItems();
         ModItems.registerItems();
+        SushiItems.registerItems();
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "tomato_crop"), TOMATO_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "onion_crop"), ONION_CROP);
