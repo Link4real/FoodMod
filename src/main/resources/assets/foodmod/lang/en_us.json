@@ -27,6 +27,7 @@
   "itemGroup.foodmod.main": "FoodMod",
   "itemGroup.foodmod.pizza": "Pizza",
   "itemGroup.foodmod.seeds": "Seeds",
+  "itemGroup.foodmod.sushi": "Sushi",
   "item.foodmod.water": "Water",
   "item.foodmod.toast": "Toast",
   "item.foodmod.bread_dough": "Bread Dough",
@@ -63,7 +64,7 @@
   "item.foodmod.peach_crop": "Peach Crop",
   "item.foodmod.peach": "Peach",
   "item.foodmod.orange_seeds": "Orange Seeds",
-  "itemm.foodmod.organe_crop": "Orange Crop",
+  "block.foodmod.orange_crop": "Orange Crop",
   "item.foodmod.pizza_margherita.tooltip": "Old classic",
   "item.foodmod.chocolate.tooltip": "Dark chocolate",
   "item.foodmod.orange": "Orange",
@@ -78,5 +79,6 @@
   "item.foodmod.apple_pie": "Apple Pie",
   "block.foodmod.rice_crop": "Rice Crop",
   "item.foodmod.rice_seeds": "Rice Seeds",
-  "item.foodmod.fish_sushi": "Fish Sushi"
+  "item.foodmod.fish_sushi": "Fish Sushi",
+  "item.foodmod.rice": "Rice"
 }
