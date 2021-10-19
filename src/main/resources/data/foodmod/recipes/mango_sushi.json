@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "DFD",
+    " D "
+  ],
+  "key": {
+    "#": {
+      "item": "foodmod:mango"
+    },
+    "D": {
+      "item": "minecraft:dried_kelp"
+    },
+    "F": {
+      "item": "foodmod:rice"
+    }
+  },
+  "result": {
+    "item": "foodmod:mango_sushi",
+    "count": 1
+  }
+}

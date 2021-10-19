@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 import static com.link.food.mod.registry.Crops.*;
-import static com.link.food.mod.registry.SushiItems.FISH_SUSHI;
+import static com.link.food.mod.registry.SushiItems.*;
 
 public class Main implements ModInitializer {
 
@@ -92,9 +92,11 @@ public class Main implements ModInitializer {
 
     public static final ItemGroup SUSHI = FabricItemGroupBuilder.create(
             new Identifier("foodmod", "sushi"))
-            .icon(() -> new ItemStack(FISH_SUSHI))
+            .icon(() -> new ItemStack(VEGETABLE_SUSHI))
             .appendItems(stacks -> {
                   stacks.add(new ItemStack(FISH_SUSHI));
+                  stacks.add(new ItemStack(VEGETABLE_SUSHI));
+                  stacks.add(new ItemStack(MANGO_SUSHI));
             })
             .build();
     // ...

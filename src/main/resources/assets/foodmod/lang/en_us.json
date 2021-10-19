@@ -80,5 +80,8 @@
   "block.foodmod.rice_crop": "Rice Crop",
   "item.foodmod.rice_seeds": "Rice Seeds",
   "item.foodmod.fish_sushi": "Fish Sushi",
-  "item.foodmod.rice": "Rice"
+  "item.foodmod.rice": "Rice",
+  "item.foodmod.vegetable_sushi": "Vegetable Sushi",
+  "item.foodmod.mango_sushi": "Mango Sushi"
+
 }
