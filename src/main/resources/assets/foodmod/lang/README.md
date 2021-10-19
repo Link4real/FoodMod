@@ -2,8 +2,8 @@
 
 #### (Link_911#3798)
 
-###You can also create a pull request :)
+### You can also create a pull request :)
 
 ## Languages available:
 
-###- American English (en_us)
+### - American English (en_us)
