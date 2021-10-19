@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "SAG",
+    " W "
+  ],
+  "key": {
+    "#": {
+      "item": "foodmod:strawberrie"
+    },
+    "S": {
+      "item": "minecraft:sweet_berries"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "G": {
+      "item": "minecraft:glow_berries"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "foodmod:fruit_salad",
+    "count": 1
+  }
+}

@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 import static com.link.food.mod.registry.Crops.*;
+import static com.link.food.mod.registry.PizzaItems.*;
 import static com.link.food.mod.registry.SushiItems.*;
 
 public class Main implements ModInitializer {
@@ -70,20 +71,20 @@ public class Main implements ModInitializer {
             new Identifier("foodmod", "pizza"))
             .icon(() -> new ItemStack(PizzaItems.PEPPERONI_PIZZA))
             .appendItems(stacks -> {
-                stacks.add(new ItemStack(PizzaItems.PIZZA_DOUGH));
-                stacks.add(new ItemStack(PizzaItems.TOMATO_SAUCE));
-                stacks.add(new ItemStack(PizzaItems.PEPPERONI));
-                stacks.add(new ItemStack(PizzaItems.OLIVE));
-                stacks.add(new ItemStack(PizzaItems.CHEESE_PIZZA));
-                stacks.add(new ItemStack(PizzaItems.PEPPERONI_PIZZA));
-                stacks.add(new ItemStack(PizzaItems.FISH_PIZZA));
-                stacks.add(new ItemStack(PizzaItems.PIZZA_MARGHERITA));
-                stacks.add(new ItemStack(PizzaItems.GREEK_PIZZA));
-                stacks.add(new ItemStack(PizzaItems.RAW_CHEESE_PIZZA));
-                stacks.add(new ItemStack(PizzaItems.RAW_PEPPERONI_PIZZA));
-                stacks.add(new ItemStack(PizzaItems.RAW_FISH_PIZZA));
-                stacks.add(new ItemStack(PizzaItems.RAW_PIZZA_MARGHARITA));
-                stacks.add(new ItemStack(PizzaItems.RAW_GREEK_PIZZA));
+                stacks.add(new ItemStack(PIZZA_DOUGH));
+                stacks.add(new ItemStack(TOMATO_SAUCE));
+                stacks.add(new ItemStack(PEPPERONI));
+                stacks.add(new ItemStack(OLIVE));
+                stacks.add(new ItemStack(CHEESE_PIZZA));
+                stacks.add(new ItemStack(PEPPERONI_PIZZA));
+                stacks.add(new ItemStack(FISH_PIZZA));
+                stacks.add(new ItemStack(PIZZA_MARGHERITA));
+                stacks.add(new ItemStack(GREEK_PIZZA));
+                stacks.add(new ItemStack(RAW_CHEESE_PIZZA));
+                stacks.add(new ItemStack(RAW_PEPPERONI_PIZZA));
+                stacks.add(new ItemStack(RAW_FISH_PIZZA));
+                stacks.add(new ItemStack(RAW_PIZZA_MARGHARITA));
+                stacks.add(new ItemStack(RAW_GREEK_PIZZA));
 
             })
             .build();
@@ -94,9 +95,12 @@ public class Main implements ModInitializer {
             new Identifier("foodmod", "sushi"))
             .icon(() -> new ItemStack(VEGETABLE_SUSHI))
             .appendItems(stacks -> {
+                  stacks.add(new ItemStack(ModItems.RICE));
                   stacks.add(new ItemStack(FISH_SUSHI));
                   stacks.add(new ItemStack(VEGETABLE_SUSHI));
                   stacks.add(new ItemStack(MANGO_SUSHI));
+                  stacks.add(new ItemStack(EGG_SUSHI));
+                  stacks.add(new ItemStack(NIGIRI));
             })
             .build();
     // ...

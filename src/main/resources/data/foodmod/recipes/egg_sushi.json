@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "DFD",
+    " D "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:egg"
+    },
+    "D": {
+      "item": "minecraft:dried_kelp"
+    },
+    "F": {
+      "item": "foodmod:rice"
+    }
+  },
+  "result": {
+    "item": "foodmod:egg_sushi",
+    "count": 1
+  }
+}

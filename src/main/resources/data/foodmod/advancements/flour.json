@@ -67,7 +67,12 @@
       "foodmod:grape_seeds",
       "foodmod:chocolate",
       "foodmod:apple_pie",
-      "foodmod:fish_sushi"
+      "foodmod:fish_sushi",
+      "foodmod:vegetable_sushi",
+      "foodmod:mango_sushi",
+      "foodmod:nigiri",
+      "foodmod:fish_sushi",
+      "foodmod:fruit_salad"
     ]
   }
 }

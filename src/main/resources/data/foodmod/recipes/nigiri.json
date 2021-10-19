@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "F"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:salmon"
+    },
+    "F": {
+      "item": "foodmod:rice"
+    }
+  },
+  "result": {
+    "item": "foodmod:nigiri",
+    "count": 1
+  }
+}
