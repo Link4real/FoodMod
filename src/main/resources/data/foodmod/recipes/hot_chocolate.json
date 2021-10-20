@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "CCC",
+    " F "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:milk_bucket"
+    },
+    "C": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "F": {
+      "item": "foodmod:cup"
+    }
+  },
+  "result": {
+    "item": "foodmod:hot_chocolate",
+    "count": 8
+  }
+}

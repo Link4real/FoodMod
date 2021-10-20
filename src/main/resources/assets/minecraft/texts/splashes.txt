@@ -17,7 +17,7 @@ tHiS tExT wAs AdDeD iN v1.6!!!!!!
 This text was added in v1.8!!
 No Forge ports!!!
 MIT-License
-/give @a foodmod:fish_sushi 64
+/give @a foodmod:hot_chocolate 64
 i'm eating it
 Finger Lickin' Good
 Have it your way!
@@ -34,3 +34,4 @@ good 4 me!
 すし
 いい食べ物
 Also drinkable!
+now with extra salt!

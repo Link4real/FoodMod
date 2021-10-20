@@ -128,7 +128,10 @@ public class Main implements ModInitializer {
             new Identifier("foodmod", "drinks"))
             .icon(() -> new ItemStack(ORANGE_JUICE))
             .appendItems(stacks -> {
+                stacks.add(new ItemStack(CUP));
+                stacks.add(new ItemStack(HOT_CHOCOLATE));
                 stacks.add(new ItemStack(ORANGE_JUICE));
+                stacks.add(new ItemStack(APPLE_JUICE));
                 stacks.add(new ItemStack(PEACH_SLUSH));
                 stacks.add(new ItemStack(STRAWBERRY_SLUSH));
             })

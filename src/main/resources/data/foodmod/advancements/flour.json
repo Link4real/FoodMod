@@ -75,7 +75,9 @@
       "foodmod:fruit_salad",
       "foodmod:orange_juice",
       "foodmod:peach_slush",
-      "foodmod:strawberry_slush"
+      "foodmod:strawberry_slush",
+      "foodmod:cup",
+      "foodmod:hot_chocolate"
     ]
   }
 }
