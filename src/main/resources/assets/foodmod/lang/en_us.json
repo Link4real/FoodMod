@@ -28,6 +28,7 @@
   "itemGroup.foodmod.pizza": "Pizza",
   "itemGroup.foodmod.seeds": "Seeds",
   "itemGroup.foodmod.sushi": "Sushi",
+  "itemGroup.foodmod.drinks": "Drinks",
   "item.foodmod.water": "Water",
   "item.foodmod.toast": "Toast",
   "item.foodmod.bread_dough": "Bread Dough",
@@ -84,6 +85,7 @@
   "item.foodmod.vegetable_sushi": "Vegetable Sushi",
   "item.foodmod.mango_sushi": "Mango Sushi",
   "item.foodmod.nigiri": "Nigiri",
-  "item.foodmod.egg_sushi": "Egg Sushi"
+  "item.foodmod.egg_sushi": "Egg Sushi",
+  "item.foodmod.orange_juice": "Orange Juice"
 
 }

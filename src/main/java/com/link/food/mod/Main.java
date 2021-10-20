@@ -1,5 +1,6 @@
 package com.link.food.mod;
 
+import com.link.food.mod.Drinks.DrinkItems;
 import com.link.food.mod.registry.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -9,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 import static com.link.food.mod.registry.Crops.*;
+import static com.link.food.mod.Drinks.DrinkItems.*;
 import static com.link.food.mod.registry.PizzaItems.*;
 import static com.link.food.mod.registry.SushiItems.*;
 
@@ -121,11 +123,22 @@ public class Main implements ModInitializer {
             .build();
     // ...
 
+
+    public static final ItemGroup DRINKS = FabricItemGroupBuilder.create(
+            new Identifier("foodmod", "drinks"))
+            .icon(() -> new ItemStack(ORANGE_JUICE))
+            .appendItems(stacks -> {
+                stacks.add(new ItemStack(ORANGE_JUICE));
+            })
+            .build();
+    // ...
+
     @Override
     public void onInitialize() {
         PizzaItems.registerItems();
         ModItems.registerItems();
         SushiItems.registerItems();
+        DrinkItems.registerItems();
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "tomato_crop"), TOMATO_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "onion_crop"), ONION_CROP);

@@ -14,6 +14,7 @@ over 500 downloads!!!!!!!
 This text was added in v1.5!
 tHiS tExT wAs AdDeD iN v1.6!!!!!!
 このテキストはに追加されました v1.7!
+This text was added in v1.8!!
 No Forge ports!!!
 MIT-License
 /give @a foodmod:fish_sushi 64
@@ -30,3 +31,4 @@ Now extra healthy!
 good 4 me!
 すし
 いい食べ物
+Also drinkable!
