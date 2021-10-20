@@ -86,6 +86,10 @@
   "item.foodmod.mango_sushi": "Mango Sushi",
   "item.foodmod.nigiri": "Nigiri",
   "item.foodmod.egg_sushi": "Egg Sushi",
-  "item.foodmod.orange_juice": "Orange Juice"
+  "item.foodmod.orange_juice": "Orange Juice",
+  "item.foodmod.slush.tooltip": "Freezing Cold",
+  "item.foodmod.orange_juice_class.tooltip": "Fresh and juicy!",
+  "item.foodmod.peach_slush": "Peach Slush",
+  "item.foodmod.strawberry_slush": "Strawberry Slush"
 
 }

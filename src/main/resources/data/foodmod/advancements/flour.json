@@ -73,7 +73,9 @@
       "foodmod:nigiri",
       "foodmod:fish_sushi",
       "foodmod:fruit_salad",
-      "foodmod:orange_juice"
+      "foodmod:orange_juice",
+      "foodmod:peach_slush",
+      "foodmod:strawberry_slush"
     ]
   }
 }

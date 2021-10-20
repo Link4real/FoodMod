@@ -12,19 +12,20 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class OrangeJuice extends MainDrinkItem {
-    public OrangeJuice(Settings settings) {
+public class Slush extends MainDrinkItem{
+    public Slush(Settings settings) {
         super(settings);
     }
 
     @Override
     protected void onConsume(ItemStack stack, World world, LivingEntity user) {
         if (!world.isClient) {
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 100, 1, false, true));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 150, 2));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 150, 3));
         }
     }
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add(new TranslatableText("item.foodmod.orange_juice_class.tooltip").formatted(Formatting.BLUE));
+        tooltip.add(new TranslatableText("item.foodmod.slush.tooltip").formatted(Formatting.BLUE));
     }
 }

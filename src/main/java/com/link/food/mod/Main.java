@@ -129,6 +129,8 @@ public class Main implements ModInitializer {
             .icon(() -> new ItemStack(ORANGE_JUICE))
             .appendItems(stacks -> {
                 stacks.add(new ItemStack(ORANGE_JUICE));
+                stacks.add(new ItemStack(PEACH_SLUSH));
+                stacks.add(new ItemStack(STRAWBERRY_SLUSH));
             })
             .build();
     // ...

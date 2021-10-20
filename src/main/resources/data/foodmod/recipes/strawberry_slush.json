@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "foodmod:strawberry"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "foodmod:strawberry_slush",
+    "count": 1
+  }
+}
