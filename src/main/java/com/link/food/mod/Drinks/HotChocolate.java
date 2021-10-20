@@ -12,7 +12,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class HotChocolate extends MainDrinkItem{
+public class HotChocolate extends CupDrinkItem{
     public HotChocolate(Settings settings) {
         super(settings);
     }
