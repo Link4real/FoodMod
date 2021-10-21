@@ -20,6 +20,7 @@ public class Crops implements ModInitializer {
     public static final CropBlockStrawberries STRAWBERRIE_CROP = new CropBlockStrawberries(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final CropBlockGrape GRAPE_CROP = new CropBlockGrape(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final CropBlockRice RICE_CROP = new CropBlockRice(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
+    public static final CropBlockLemon LEMON_CROP = new CropBlockLemon(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
 
     public static final Item ONION_SEEDS = new AliasedBlockItem(Crops.ONION_CROP, new Item.Settings().group(ItemGroup.MISC));
     public static final Item TOMATO_SEEDS = new AliasedBlockItem(Crops.TOMATO_CROP, new Item.Settings().group(ItemGroup.MISC));
@@ -28,6 +29,7 @@ public class Crops implements ModInitializer {
     public static final Item STRAWBERRIE_SEEDS = new AliasedBlockItem(Crops.STRAWBERRIE_CROP, new Item.Settings().group(ItemGroup.MISC));
     public static final Item GRAPE_SEEDS = new AliasedBlockItem(Crops.GRAPE_CROP, new Item.Settings().group(ItemGroup.MISC));
     public static final Item RICE_SEEDS = new AliasedBlockItem(Crops.RICE_CROP, new Item.Settings().group(ItemGroup.MISC));
+    public static final Item LEMON_SEEDS = new AliasedBlockItem(Crops.LEMON_CROP, new Item.Settings().group(ItemGroup.MISC));
 
     @Override
     public void onInitialize() {
@@ -39,6 +41,7 @@ public class Crops implements ModInitializer {
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "strawberry_crop"), STRAWBERRIE_CROP);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "grape_crop"), GRAPE_CROP);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "rice_crop"), RICE_CROP);
+        Registry.register(Registry.BLOCK, new Identifier("foodmod","lemon_crop"), LEMON_CROP);
 
         Registry.register(Registry.ITEM, new Identifier("foodmod", "onion_seeds"), ONION_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);
@@ -47,5 +50,6 @@ public class Crops implements ModInitializer {
         Registry.register(Registry.ITEM ,new Identifier("foodmod", "strawberry_seeds"), STRAWBERRIE_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "grape_seeds"), GRAPE_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "rice_seeds"), RICE_SEEDS);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "lemon_seeds"), LEMON_SEEDS);
     }
 }

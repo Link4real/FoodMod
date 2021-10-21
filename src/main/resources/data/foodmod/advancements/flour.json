@@ -77,7 +77,12 @@
       "foodmod:peach_slush",
       "foodmod:strawberry_slush",
       "foodmod:cup",
-      "foodmod:hot_chocolate"
+      "foodmod:hot_chocolate",
+      "foodmod:grape_juice",
+      "foodmod:icetea_peach",
+      "foodmod:icetea_strawberry",
+      "foodmod:lemon_seeds",
+      "foodmod:icetea_lemon"
     ]
   }
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:lemon"
+    }
+  ],
+  "result": {
+    "item": "foodmod:lemon_seeds",
+    "count": 4
+  }
+}

@@ -95,5 +95,14 @@
   "item.foodmod.hot_chocolate": "Hot Chocolate",
   "item.foodmod.hot_chocolate.tooltip": "Warm and delicious!",
   "item.foodmod.apple_juice": "Apple Juice",
-  "item.foodmod.apple_juice.tooltip": "Healthy and tasty!"
+  "item.foodmod.apple_juice.tooltip": "Healthy and tasty!",
+  "item.foodmod.grape_juice": "Grape Juice",
+  "item.foodmod.grape_juice.tooltip": "The sweet taste of freedom!",
+  "item.foodmod.icetea_peach": "IceTea Peach",
+  "item.foodmod.IceTea.tooltip": "Tasting fresh!",
+  "item.foodmod.icetea_strawberry": "IceTea Strawberry",
+  "block.foodmod.lemon_crop": "Lemon Crop",
+  "item.foodmod.lemon_seeds": "Lemon Seeds",
+  "item.foodmod.lemon": "Lemon",
+  "item.foodmod.icetea_lemon": "IceTea Lemon"
 }

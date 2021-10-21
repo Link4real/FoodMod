@@ -54,6 +54,7 @@ public class ModItems {
     public static final Item CHOCOLATE = new TooltipItemChocolate(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(5f).build()));
     public static final Item APPLE_PIE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(8).saturationModifier(6f).build()));
     public static final Item RICE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(1).saturationModifier(1f).snack().build()));
+    public static final Item LEMON = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(2).saturationModifier(2f).build()));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "mango"), MANGO);
@@ -100,6 +101,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod","chocolate"), CHOCOLATE);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "apple_pie"), APPLE_PIE);
         Registry.register(Registry.ITEM, new Identifier("foodmod","rice"), RICE);
+        Registry.register(Registry.ITEM, new Identifier("foodmod","lemon"), LEMON);
     }
 }
 

@@ -65,6 +65,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.CHOCOLATE));
                 stacks.add(new ItemStack(ModItems.APPLE_PIE));
                 stacks.add(new ItemStack(ModItems.RICE));
+                stacks.add(new ItemStack(ModItems.LEMON));
             })
             .build();
     // ...
@@ -119,6 +120,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(STRAWBERRIE_SEEDS));
                 stacks.add(new ItemStack(GRAPE_SEEDS));
                 stacks.add(new ItemStack(RICE_SEEDS));
+                stacks.add(new ItemStack(LEMON_SEEDS));
             })
             .build();
     // ...
@@ -132,8 +134,12 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(HOT_CHOCOLATE));
                 stacks.add(new ItemStack(ORANGE_JUICE));
                 stacks.add(new ItemStack(APPLE_JUICE));
+                stacks.add(new ItemStack(GRAPE_JUICE));
                 stacks.add(new ItemStack(PEACH_SLUSH));
                 stacks.add(new ItemStack(STRAWBERRY_SLUSH));
+                stacks.add(new ItemStack(ICETEA_PEACH));
+                stacks.add(new ItemStack(ICETEA_STRAWBERRY));
+                stacks.add(new ItemStack(ICETEA_LEMON));
             })
             .build();
     // ...
@@ -158,7 +164,8 @@ public class Main implements ModInitializer {
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "grape_crop"), GRAPE_CROP);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "rice_crop"), RICE_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "rice_seeds"), RICE_SEEDS);
-
+        Registry.register(Registry.BLOCK, new Identifier("foodmod","lemon_crop"), LEMON_CROP);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "lemon_seeds"), LEMON_SEEDS);
     }
 }
 

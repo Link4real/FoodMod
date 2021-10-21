@@ -27,6 +27,7 @@ public class PizzaItems {
 
     public static void registerItems() {
 
+        //Ingredients
         Registry.register(Registry.ITEM, new Identifier("foodmod", "pizza_dough"), PIZZA_DOUGH);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_sauce"), TOMATO_SAUCE);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "pepperoni"), PEPPERONI);

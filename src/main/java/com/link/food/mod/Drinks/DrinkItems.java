@@ -14,6 +14,10 @@ public class DrinkItems {
    public static Slush STRAWBERRY_SLUSH = new Slush(new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
    public static HotChocolate HOT_CHOCOLATE = new HotChocolate(new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
    public static AppleJuice APPLE_JUICE = new AppleJuice(new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
+   public static GrapeJuice GRAPE_JUICE = new GrapeJuice(new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
+   public static IceTea ICETEA_PEACH = new IceTea(new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
+   public static IceTea ICETEA_STRAWBERRY = new IceTea(new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
+   public static IceTea ICETEA_LEMON = new IceTea(new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
 
     public static void registerItems() {
 
@@ -21,7 +25,11 @@ public class DrinkItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod","peach_slush"), PEACH_SLUSH);
         Registry.register(Registry.ITEM, new Identifier("foodmod","strawberry_slush"), STRAWBERRY_SLUSH);
         Registry.register(Registry.ITEM, new Identifier("foodmod","hot_chocolate"), HOT_CHOCOLATE);
-        Registry.register(Registry.ITEM, new Identifier("foodmod", "cup"), CUP);
-        Registry.register(Registry.ITEM, new Identifier("foodmod", "apple_juice"), APPLE_JUICE);
+        Registry.register(Registry.ITEM, new Identifier("foodmod","cup"), CUP);
+        Registry.register(Registry.ITEM, new Identifier("foodmod","apple_juice"), APPLE_JUICE);
+        Registry.register(Registry.ITEM, new Identifier("foodmod","grape_juice"), GRAPE_JUICE);
+        Registry.register(Registry.ITEM, new Identifier("foodmod","icetea_peach"), ICETEA_PEACH);
+        Registry.register(Registry.ITEM, new Identifier("foodmod","icetea_strawberry"), ICETEA_STRAWBERRY);
+        Registry.register(Registry.ITEM, new Identifier("foodmod","icetea_lemon"), ICETEA_LEMON);
     }
 }

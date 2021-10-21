@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "G"
+  ],
+  "key": {
+    "#": {
+      "item": "foodmod:grape"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "foodmod:grape_juice",
+    "count": 1
+  }
+}

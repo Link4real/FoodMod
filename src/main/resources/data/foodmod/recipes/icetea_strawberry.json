@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "FFF",
+    " G "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ice"
+    },
+    "F": {
+      "item": "foodmod:strawberry"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "foodmod:icetea_strawberry",
+    "count": 1
+  }
+}
