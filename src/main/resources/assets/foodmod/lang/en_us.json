@@ -104,5 +104,7 @@
   "block.foodmod.lemon_crop": "Lemon Crop",
   "item.foodmod.lemon_seeds": "Lemon Seeds",
   "item.foodmod.lemon": "Lemon",
-  "item.foodmod.icetea_lemon": "IceTea Lemon"
+  "item.foodmod.icetea_lemon": "IceTea Lemon",
+  "item.foodmod.lemonade": "Lemonade",
+  "item.foodmod.lemonade.tooltip": "Fresh and prickling"
 }

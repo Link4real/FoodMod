@@ -140,6 +140,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(ICETEA_PEACH));
                 stacks.add(new ItemStack(ICETEA_STRAWBERRY));
                 stacks.add(new ItemStack(ICETEA_LEMON));
+                stacks.add(new ItemStack(LEMONADE));
             })
             .build();
     // ...

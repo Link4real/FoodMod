@@ -1,6 +1,5 @@
 package com.link.food.mod.Drinks;
 
-import com.link.food.mod.Drinks.OrangeJuice;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -18,6 +17,7 @@ public class DrinkItems {
    public static IceTea ICETEA_PEACH = new IceTea(new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
    public static IceTea ICETEA_STRAWBERRY = new IceTea(new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
    public static IceTea ICETEA_LEMON = new IceTea(new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
+   public static Lemonade LEMONADE = new Lemonade(new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
 
     public static void registerItems() {
 
@@ -31,5 +31,6 @@ public class DrinkItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod","icetea_peach"), ICETEA_PEACH);
         Registry.register(Registry.ITEM, new Identifier("foodmod","icetea_strawberry"), ICETEA_STRAWBERRY);
         Registry.register(Registry.ITEM, new Identifier("foodmod","icetea_lemon"), ICETEA_LEMON);
+        Registry.register(Registry.ITEM, new Identifier("foodmod","lemonade"), LEMONADE);
     }
 }
