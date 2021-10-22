@@ -134,11 +134,13 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(APPLE_JUICE));
                 stacks.add(new ItemStack(GRAPE_JUICE));
                 stacks.add(new ItemStack(PEACH_SLUSH));
+                stacks.add(new ItemStack(LEMON_SLUSH));
                 stacks.add(new ItemStack(STRAWBERRY_SLUSH));
                 stacks.add(new ItemStack(ICETEA_PEACH));
                 stacks.add(new ItemStack(ICETEA_STRAWBERRY));
                 stacks.add(new ItemStack(ICETEA_LEMON));
                 stacks.add(new ItemStack(LEMONADE));
+                stacks.add(new ItemStack(ORANGE_LEMONADE));
             })
             .build();
     // ...
