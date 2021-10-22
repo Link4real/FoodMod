@@ -15,7 +15,6 @@ import static com.link.food.mod.registry.SushiItems.*;
 
 public class Main implements ModInitializer {
 
-    public static final String MOD_ID = "foodmod";
 
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.create(
             new Identifier("foodmod", "main"))
