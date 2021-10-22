@@ -16,9 +16,11 @@ This text was added in v1.5!
 tHiS tExT wAs AdDeD iN v1.6!!!!!!
 このテキストはに追加されました v1.7!
 This text was added in v1.8!!
+THIS TEXT WAS ADDED IN v1.9!!!!!!!!!!!!
 No Forge ports!!!
 MIT-License
-/give @a foodmod:hot_chocolate 64
+/give @a foodmod:carolina_reaper 64
+/effect give @a foodmod:spicy 250 4
 i'm eating it
 Finger Lickin' Good
 Have it your way!
@@ -37,3 +39,6 @@ good 4 me!
 Also drinkable!
 now with extra salt!
 Sweet and Sour at the same time!
+He couldn't handle the HEAT
+SPICIER THEN I THOUGHT!!!!!!!!!!!
+CAROLINA REAPER

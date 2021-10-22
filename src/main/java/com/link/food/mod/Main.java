@@ -3,6 +3,7 @@ package com.link.food.mod;
 import com.link.food.mod.registry.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
@@ -14,6 +15,7 @@ import static com.link.food.mod.registry.PizzaItems.*;
 import static com.link.food.mod.registry.SushiItems.*;
 
 public class Main implements ModInitializer {
+    public static final StatusEffect SPICY = new SpicyEffect();
 
 
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.create(
@@ -151,6 +153,7 @@ public class Main implements ModInitializer {
         ModItems.registerItems();
         SushiItems.registerItems();
         DrinkItems.registerItems();
+        Registry.register(Registry.STATUS_EFFECT, new Identifier("foodmod", "spicy"), SPICY);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "tomato_crop"), TOMATO_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "onion_crop"), ONION_CROP);
