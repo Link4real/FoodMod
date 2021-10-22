@@ -1,4 +1,4 @@
-package com.link.food.mod.Drinks;
+package com.link.food.mod.DrinkItems;
 
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
@@ -14,10 +14,8 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
-public abstract class MainDrinkItem extends Item {
-
-
-    public MainDrinkItem(Settings settings) {
+public abstract class LemonadeDrinkItem extends Item {
+    public LemonadeDrinkItem(Settings settings) {
         super(settings);
     }
 
@@ -40,7 +38,7 @@ public abstract class MainDrinkItem extends Item {
 
     @Override
     public int getMaxUseTime(ItemStack stack) {
-        return 34;
+        return 77;
     }
 
     @Override
@@ -54,6 +52,4 @@ public abstract class MainDrinkItem extends Item {
     }
 
     protected abstract void onConsume(ItemStack stack, World world, LivingEntity user);
-
 }
-//Link4real > all

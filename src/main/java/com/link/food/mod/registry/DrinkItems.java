@@ -1,5 +1,6 @@
-package com.link.food.mod.Drinks;
+package com.link.food.mod.registry;
 
+import com.link.food.mod.Drinks.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;

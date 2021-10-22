@@ -12,7 +12,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class Crops implements ModInitializer {
+public class CropItems implements ModInitializer {
     public static final TomatoCropBlock TOMATO_CROP = new TomatoCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final CropBlockOnion ONION_CROP = new CropBlockOnion(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final CropBlockPeach PEACH_CROP = new CropBlockPeach(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
@@ -22,14 +22,14 @@ public class Crops implements ModInitializer {
     public static final CropBlockRice RICE_CROP = new CropBlockRice(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final CropBlockLemon LEMON_CROP = new CropBlockLemon(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
 
-    public static final Item ONION_SEEDS = new AliasedBlockItem(Crops.ONION_CROP, new Item.Settings().group(ItemGroup.MISC));
-    public static final Item TOMATO_SEEDS = new AliasedBlockItem(Crops.TOMATO_CROP, new Item.Settings().group(ItemGroup.MISC));
-    public static final Item PEACH = new AliasedBlockItem(Crops.PEACH_CROP, new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(4f).build()));
-    public static final Item ORANGE_SEEDS = new AliasedBlockItem(Crops.ORANGE_CROP, new Item.Settings().group(ItemGroup.MISC));
-    public static final Item STRAWBERRIE_SEEDS = new AliasedBlockItem(Crops.STRAWBERRIE_CROP, new Item.Settings().group(ItemGroup.MISC));
-    public static final Item GRAPE_SEEDS = new AliasedBlockItem(Crops.GRAPE_CROP, new Item.Settings().group(ItemGroup.MISC));
-    public static final Item RICE_SEEDS = new AliasedBlockItem(Crops.RICE_CROP, new Item.Settings().group(ItemGroup.MISC));
-    public static final Item LEMON_SEEDS = new AliasedBlockItem(Crops.LEMON_CROP, new Item.Settings().group(ItemGroup.MISC));
+    public static final Item ONION_SEEDS = new AliasedBlockItem(CropItems.ONION_CROP, new Item.Settings().group(ItemGroup.MISC));
+    public static final Item TOMATO_SEEDS = new AliasedBlockItem(CropItems.TOMATO_CROP, new Item.Settings().group(ItemGroup.MISC));
+    public static final Item PEACH = new AliasedBlockItem(CropItems.PEACH_CROP, new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(4f).build()));
+    public static final Item ORANGE_SEEDS = new AliasedBlockItem(CropItems.ORANGE_CROP, new Item.Settings().group(ItemGroup.MISC));
+    public static final Item STRAWBERRIE_SEEDS = new AliasedBlockItem(CropItems.STRAWBERRIE_CROP, new Item.Settings().group(ItemGroup.MISC));
+    public static final Item GRAPE_SEEDS = new AliasedBlockItem(CropItems.GRAPE_CROP, new Item.Settings().group(ItemGroup.MISC));
+    public static final Item RICE_SEEDS = new AliasedBlockItem(CropItems.RICE_CROP, new Item.Settings().group(ItemGroup.MISC));
+    public static final Item LEMON_SEEDS = new AliasedBlockItem(CropItems.LEMON_CROP, new Item.Settings().group(ItemGroup.MISC));
 
     @Override
     public void onInitialize() {

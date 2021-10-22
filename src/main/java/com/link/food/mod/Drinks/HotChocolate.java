@@ -1,5 +1,6 @@
 package com.link.food.mod.Drinks;
 
+import com.link.food.mod.DrinkItems.CupDrinkItem;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -12,7 +13,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class HotChocolate extends CupDrinkItem{
+public class HotChocolate extends CupDrinkItem {
     public HotChocolate(Settings settings) {
         super(settings);
     }

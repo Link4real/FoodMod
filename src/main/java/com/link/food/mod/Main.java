@@ -1,6 +1,5 @@
 package com.link.food.mod;
 
-import com.link.food.mod.Drinks.DrinkItems;
 import com.link.food.mod.registry.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -9,8 +8,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import static com.link.food.mod.registry.Crops.*;
-import static com.link.food.mod.Drinks.DrinkItems.*;
+import static com.link.food.mod.registry.CropItems.*;
+import static com.link.food.mod.registry.DrinkItems.*;
 import static com.link.food.mod.registry.PizzaItems.*;
 import static com.link.food.mod.registry.SushiItems.*;
 
@@ -128,7 +127,7 @@ public class Main implements ModInitializer {
 
     public static final ItemGroup DRINKS = FabricItemGroupBuilder.create(
             new Identifier("foodmod", "drinks"))
-            .icon(() -> new ItemStack(ORANGE_JUICE))
+            .icon(() -> new ItemStack(DrinkItems.ORANGE_JUICE))
             .appendItems(stacks -> {
                 stacks.add(new ItemStack(CUP));
                 stacks.add(new ItemStack(HOT_CHOCOLATE));

@@ -1,12 +1,12 @@
-package com.link.food.mod.Drinks;
+package com.link.food.mod.DrinkItems;
 
+import com.link.food.mod.registry.DrinkItems;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsage;
-import net.minecraft.item.Items;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.stat.Stats;
 import net.minecraft.util.Hand;
@@ -14,11 +14,11 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
-public abstract class LemonadeDrinkItem extends Item {
-    public LemonadeDrinkItem(Settings settings) {
+public abstract class CupDrinkItem extends Item {
+
+    public CupDrinkItem(Settings settings) {
         super(settings);
     }
-
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
         if (user instanceof ServerPlayerEntity) {
@@ -33,12 +33,12 @@ public abstract class LemonadeDrinkItem extends Item {
 
         this.onConsume(stack, world, user);
 
-        return stack.isEmpty() ? new ItemStack(Items.GLASS_BOTTLE) : stack;
+        return stack.isEmpty() ? new ItemStack(DrinkItems.CUP) : stack;
     }
 
     @Override
     public int getMaxUseTime(ItemStack stack) {
-        return 77;
+        return 55;
     }
 
     @Override
