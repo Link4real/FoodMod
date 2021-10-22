@@ -36,6 +36,6 @@ public class DrinkItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod","icetea_lemon"), ICETEA_LEMON);
         Registry.register(Registry.ITEM, new Identifier("foodmod","lemonade"), LEMONADE);
         Registry.register(Registry.ITEM, new Identifier("foodmod","lemon_slush"), LEMON_SLUSH);
-        Registry.register(Registry.ITEM, new Identifier("foodmod","orange_slush"), ORANGE_LEMONADE);
+        Registry.register(Registry.ITEM, new Identifier("foodmod","orange_lemonade"), ORANGE_LEMONADE);
     }
 }

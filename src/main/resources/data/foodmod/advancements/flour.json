@@ -83,7 +83,9 @@
       "foodmod:icetea_strawberry",
       "foodmod:lemon_seeds",
       "foodmod:icetea_lemon",
-      "foodmod:lemonade"
+      "foodmod:lemonade",
+      "foodmod:lemon_slush",
+      "foodmod:orange_lemonade"
     ]
   }
 }
