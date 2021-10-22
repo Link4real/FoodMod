@@ -2,15 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " # ",
-    "FFF",
+    "FNF",
     " G "
   ],
   "key": {
     "#": {
-      "item": "foodmod:lemon"
+      "item": "minecraft:water_bucket"
     },
     "F": {
       "item": "foodmod:orange"
+    },
+    "N": {
+      "item": "foodmod:lemon"
     },
     "G": {
       "item": "minecraft:glass_bottle"
