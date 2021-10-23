@@ -109,5 +109,9 @@
   "item.foodmod.lemonade.tooltip": "Fresh and prickling",
   "item.foodmod.lemon_slush": "Lemon Slush",
   "item.foodmod.orange_lemonade": "Orange Lemonade",
-  "effect.foodmod.spicy": "Spicy"
+  "effect.foodmod.spicy": "Spicy",
+  "block.foodmod.chili_crop": "Chili Crop",
+  "item.foodmod.chili_seeds": "Chili Seeds",
+  "item.foodmod.chili_pepper": "Chili Pepper",
+  "item.foodmod.spicy.tooltip": "Spicy! Might kill you!"
 }

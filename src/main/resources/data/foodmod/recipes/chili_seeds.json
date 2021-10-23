@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:chili_pepper"
+    }
+  ],
+  "result": {
+    "item": "foodmod:chili_seeds",
+    "count": 8
+  }
+}

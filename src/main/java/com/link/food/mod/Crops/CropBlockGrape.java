@@ -28,6 +28,12 @@ public class CropBlockGrape extends CropBlock {
 
     }
 
+
+    @Override
+    public OffsetType getOffsetType() {
+        return OffsetType.XYZ;
+    }
+
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return AGE_TO_SHAPE[(Integer)state.get(this.getAgeProperty())];
     }

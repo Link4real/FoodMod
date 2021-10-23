@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/crop",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "crop": "foodmod:blocks/grape_crop_stage6"
+    "cross": "foodmod:blocks/grape_crop_stage6"
   }
 }

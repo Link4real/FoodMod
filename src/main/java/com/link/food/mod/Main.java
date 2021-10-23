@@ -13,6 +13,7 @@ import static com.link.food.mod.registry.CropItems.*;
 import static com.link.food.mod.registry.DrinkItems.*;
 import static com.link.food.mod.registry.PizzaItems.*;
 import static com.link.food.mod.registry.SushiItems.*;
+import static com.link.food.mod.registry.SpicyItems.*;
 
 public class Main implements ModInitializer {
     public static final StatusEffect SPICY = new SpicyEffect();
@@ -121,6 +122,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(GRAPE_SEEDS));
                 stacks.add(new ItemStack(RICE_SEEDS));
                 stacks.add(new ItemStack(LEMON_SEEDS));
+                stacks.add(new ItemStack(CHILI_SEEDS));
             })
             .build();
     // ...
@@ -147,12 +149,23 @@ public class Main implements ModInitializer {
             .build();
     // ...
 
+    public static final ItemGroup SPICYITEMS = FabricItemGroupBuilder.create(
+            new Identifier("foodmod", "spicy"))
+            .icon(() -> new ItemStack(DrinkItems.ORANGE_JUICE))
+            .appendItems(stacks -> {
+                stacks.add(new ItemStack(CHILI_PEPPER));
+                stacks.add(new ItemStack(CHILI_SEEDS));
+            })
+            .build();
+    // ...
+
     @Override
     public void onInitialize() {
         PizzaItems.registerItems();
         ModItems.registerItems();
         SushiItems.registerItems();
         DrinkItems.registerItems();
+        SpicyItems.registerItems();
         Registry.register(Registry.STATUS_EFFECT, new Identifier("foodmod", "spicy"), SPICY);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "tomato_crop"), TOMATO_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);
@@ -170,6 +183,8 @@ public class Main implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "rice_seeds"), RICE_SEEDS);
         Registry.register(Registry.BLOCK, new Identifier("foodmod","lemon_crop"), LEMON_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "lemon_seeds"), LEMON_SEEDS);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "chili_seeds"), CHILI_SEEDS);
+        Registry.register(Registry.BLOCK, new Identifier("foodmod","chili_crop"), CHILI_CROP);
     }
 }
 

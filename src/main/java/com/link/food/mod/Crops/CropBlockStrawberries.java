@@ -27,7 +27,10 @@ public class CropBlockStrawberries extends CropBlock {
         return CropItems.STRAWBERRIE_SEEDS;
 
     }
-
+    @Override
+    public OffsetType getOffsetType() {
+        return OffsetType.XYZ;
+    }
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return AGE_TO_SHAPE[(Integer)state.get(this.getAgeProperty())];
     }

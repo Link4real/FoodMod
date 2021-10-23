@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "foodmod:blocks/chili_crop_stage7"
+  }
+}
