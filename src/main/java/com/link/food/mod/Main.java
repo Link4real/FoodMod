@@ -151,10 +151,11 @@ public class Main implements ModInitializer {
 
     public static final ItemGroup SPICYITEMS = FabricItemGroupBuilder.create(
             new Identifier("foodmod", "spicy"))
-            .icon(() -> new ItemStack(DrinkItems.ORANGE_JUICE))
+            .icon(() -> new ItemStack(CHILI_PEPPER))
             .appendItems(stacks -> {
                 stacks.add(new ItemStack(CHILI_PEPPER));
                 stacks.add(new ItemStack(CHILI_SEEDS));
+                stacks.add(new ItemStack(JALAPENO));
             })
             .build();
     // ...

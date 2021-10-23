@@ -29,6 +29,7 @@
   "itemGroup.foodmod.seeds": "Seeds",
   "itemGroup.foodmod.sushi": "Sushi",
   "itemGroup.foodmod.drinks": "Drinks",
+  "itemGroup.foodmod.spicy": "Spicy Food",
   "item.foodmod.water": "Water",
   "item.foodmod.toast": "Toast",
   "item.foodmod.bread_dough": "Bread Dough",
@@ -113,5 +114,7 @@
   "block.foodmod.chili_crop": "Chili Crop",
   "item.foodmod.chili_seeds": "Chili Seeds",
   "item.foodmod.chili_pepper": "Chili Pepper",
-  "item.foodmod.spicy.tooltip": "Spicy! Might kill you!"
+  "item.foodmod.spicy-mild.tooltip": "Spicy! Might kill you!",
+  "item.foodmod.spicy-medium.tooltip": "Very Spicy! Can kill you, if you aren't patient!",
+  "item.foodmod.jalapeno": "Jalapeño"
 }

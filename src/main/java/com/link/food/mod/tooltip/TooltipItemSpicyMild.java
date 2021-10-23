@@ -10,12 +10,12 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class TooltipItemSpicy extends Item {
-    public TooltipItemSpicy(Settings settings) {
+public class TooltipItemSpicyMild extends Item {
+    public TooltipItemSpicyMild(Settings settings) {
         super(settings);
     }
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add(new TranslatableText("item.foodmod.spicy.tooltip").formatted(Formatting.RED));
+        tooltip.add(new TranslatableText("item.foodmod.spicy-mild.tooltip").formatted(Formatting.RED));
     }
 }
