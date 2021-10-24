@@ -19,6 +19,7 @@ public class Main implements ModInitializer {
     public static final StatusEffect SPICY = new SpicyEffect();
 
 
+
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.create(
             new Identifier("foodmod", "main"))
             .icon(() -> new ItemStack(ModItems.TACO))
@@ -168,6 +169,7 @@ public class Main implements ModInitializer {
         SushiItems.registerItems();
         DrinkItems.registerItems();
         SpicyItems.registerItems();
+        ModBlocks.registerBlocks();
         Registry.register(Registry.STATUS_EFFECT, new Identifier("foodmod", "spicy"), SPICY);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "tomato_crop"), TOMATO_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);

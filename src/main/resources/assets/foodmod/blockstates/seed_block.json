@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "foodmod:block/seed_block" }
+  }
+}
