@@ -116,5 +116,7 @@
   "item.foodmod.chili_pepper": "Chili Pepper",
   "item.foodmod.spicy-mild.tooltip": "Spicy! Might kill you!",
   "item.foodmod.spicy-medium.tooltip": "Very Spicy! Can kill you, if you aren't patient!",
-  "item.foodmod.jalapeno": "Jalapeño"
+  "item.foodmod.jalapeno": "Jalapeño",
+  "item.foodmod.jalapeno_seeds": "Jalapeño Seeds",
+  "block.foodmod.jalapeno_crop": "Jalapeño Crop"
 }

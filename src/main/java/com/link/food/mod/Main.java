@@ -156,6 +156,7 @@ public class Main implements ModInitializer {
                 stacks.add(new ItemStack(CHILI_PEPPER));
                 stacks.add(new ItemStack(CHILI_SEEDS));
                 stacks.add(new ItemStack(JALAPENO));
+                stacks.add(new ItemStack(JALAPENO_SEEDS));
             })
             .build();
     // ...
@@ -186,6 +187,8 @@ public class Main implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "lemon_seeds"), LEMON_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "chili_seeds"), CHILI_SEEDS);
         Registry.register(Registry.BLOCK, new Identifier("foodmod","chili_crop"), CHILI_CROP);
+        Registry.register(Registry.ITEM, new Identifier("foodmod", "jalapeno_seeds"), JALAPENO_SEEDS);
+        Registry.register(Registry.BLOCK, new Identifier("foodmod","jalapeno_crop"), JALAPENO_CROP);
     }
 }
 

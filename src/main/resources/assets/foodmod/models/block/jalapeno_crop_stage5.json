@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "foodmod:blocks/jalapeno_crop_stage5"
+  }
+}

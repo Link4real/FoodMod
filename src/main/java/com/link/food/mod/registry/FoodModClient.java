@@ -18,6 +18,7 @@ public class FoodModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), RICE_CROP);
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), LEMON_CROP);
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), CHILI_CROP);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), JALAPENO_CROP);
         BlockRenders.defineRenders();
     }
 }
