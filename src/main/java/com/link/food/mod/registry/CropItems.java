@@ -22,7 +22,7 @@ public class CropItems implements ModInitializer {
     public static final CropBlockRice RICE_CROP = new CropBlockRice(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final CropBlockLemon LEMON_CROP = new CropBlockLemon(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
     public static final CropBlockChili CHILI_CROP = new CropBlockChili(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
-    public static final CropBlockJalapeno JALAPENO_CROP = new CropBlockJalapeno(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().nonOpaque().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
+    public static final CropBlockJalapeno JALAPENO_CROP = new CropBlockJalapeno(AbstractBlock.Settings.of(Material.PLANT).noCollision().nonOpaque().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
 
     public static final Item ONION_SEEDS = new AliasedBlockItem(CropItems.ONION_CROP, new Item.Settings().group(ItemGroup.MISC));
     public static final Item TOMATO_SEEDS = new AliasedBlockItem(CropItems.TOMATO_CROP, new Item.Settings().group(ItemGroup.MISC));
