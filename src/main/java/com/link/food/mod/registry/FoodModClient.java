@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 
 import static com.link.food.mod.registry.CropItems.*;
+import static com.link.food.mod.registry.ModBlocks.*;
 
 public class FoodModClient implements ClientModInitializer {
     @Override
@@ -19,6 +20,7 @@ public class FoodModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), LEMON_CROP);
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), CHILI_CROP);
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), JALAPENO_CROP);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), SEED_BLOCK);
         BlockRenders.defineRenders();
     }
 }

@@ -103,6 +103,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier("foodmod", "apple_pie"), APPLE_PIE);
         Registry.register(Registry.ITEM, new Identifier("foodmod","rice"), RICE);
         Registry.register(Registry.ITEM, new Identifier("foodmod","lemon"), LEMON);
+        Registry.register(Registry.ITEM, new Identifier("foodmod","seed_block"), SEED_BLOCK);
     }
 }
 
