@@ -1,5 +1,6 @@
 package com.link.food.mod;
 
+import com.link.food.mod.Features.Features;
 import com.link.food.mod.registry.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -17,7 +18,6 @@ import static com.link.food.mod.registry.SpicyItems.*;
 
 public class Main implements ModInitializer {
     public static final StatusEffect SPICY = new SpicyEffect();
-
 
 
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.create(
@@ -170,7 +170,10 @@ public class Main implements ModInitializer {
         DrinkItems.registerItems();
         SpicyItems.registerItems();
         ModBlocks.registerBlocks();
+        Features.register();
+        //Status Effects
         Registry.register(Registry.STATUS_EFFECT, new Identifier("foodmod", "spicy"), SPICY);
+        //Crops
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "tomato_crop"), TOMATO_CROP);
         Registry.register(Registry.ITEM, new Identifier("foodmod", "tomato_seeds"), TOMATO_SEEDS);
         Registry.register(Registry.BLOCK, new Identifier("foodmod", "onion_crop"), ONION_CROP);
